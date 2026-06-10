@@ -1,21 +1,21 @@
 # ibmcloud
 
-> Կառավարեք IBM Cloud հավելվածներն ու ծառայությունները:
-> Լրացուցիչ տեղեկություններ. <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>:
+> Կառավարեք IBM Cloud հավելվածներն ու ծառայությունները:.
+> Լրացուցիչ տեղեկություններ. <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>:.
 
-- Թարմացրեք `ibmcloud`-ը վերջին տարբերակին՝
+- Թարմացրեք `ibmcloud`-ը վերջին տարբերակին՝:
 
 `ibmcloud update`
 
-- Թվարկեք բոլոր հասանելի IBM Cloud տարածաշրջանները.
+- Թվարկեք բոլոր հասանելի IBM Cloud տարածաշրջանները.:
 
 `ibmcloud regions`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `ibmcloud help`
 
-- Ցուցադրել օգնություն ենթահրամանի համար.
+- Ցուցադրել օգնություն ենթահրամանի համար.:
 
 `ibmcloud help {{subcommand}}`
 

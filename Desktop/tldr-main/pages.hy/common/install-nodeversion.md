@@ -1,14 +1,14 @@
 # Install-NodeVersion
 
-> Տեղադրեք Node.js գործարկման ժամանակի տարբերակները `ps-nvm`-ի համար:
-> Այս հրամանը `ps-nvm`-ի մասն է և կարող է գործարկվել միայն PowerShell-ի տակ:
-> Լրացուցիչ տեղեկություններ. <https://github.com/aaronpowell/ps-nvm>:
+> Տեղադրեք Node.js գործարկման ժամանակի տարբերակները `ps-nvm`-ի համար:.
+> Այս հրամանը `ps-nvm`-ի մասն է և կարող է գործարկվել միայն PowerShell-ի տակ:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/aaronpowell/ps-nvm>:.
 
-- Տեղադրեք հատուկ Node.js տարբերակ.
+- Տեղադրեք հատուկ Node.js տարբերակ.:
 
 `Install-NodeVersion {{node_version}}`
 
-- Տեղադրեք Node.js բազմաթիվ տարբերակներ.
+- Տեղադրեք Node.js բազմաթիվ տարբերակներ.:
 
 `Install-NodeVersion {{node_version1 , node_version2 , ...}}`
 

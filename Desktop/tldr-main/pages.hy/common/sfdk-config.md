@@ -1,25 +1,25 @@
 # sfdk կազմաձև
 
-> Կարգավորել sfdk-ը:
-> Լրացուցիչ տեղեկություններ. <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/10-general/doc/command.config.adoc>:
+> Կարգավորել sfdk-ը:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/sailfishos/sailfish-qtcreator/blob/master/share/qtcreator/sfdk/modules/10-general/doc/command.config.adoc>:.
 
-- Ցուցադրել կոնֆիգուրացիան բոլոր շրջանակներով.
+- Ցուցադրել կոնֆիգուրացիան բոլոր շրջանակներով.:
 
 `sfdk config --show`
 
-- Սահմանեք կազմաձևման արժեքը.
+- Սահմանեք կազմաձևման արժեքը.:
 
 `sfdk config {{name}}={{value}}`
 
-- Քողարկել տարբերակը որպես դատարկ.
+- Քողարկել տարբերակը որպես դատարկ.:
 
 `sfdk config {{name}}=`
 
-- Քողեք տարբերակը որպես դատարկ՝ առանց այն մղելու ներքին շրջանակում.
+- Քողեք տարբերակը որպես դատարկ՝ առանց այն մղելու ներքին շրջանակում.:
 
 `sfdk config {{name}}`
 
-- Մաքրել ընտրանքի արժեքը.
+- Մաքրել ընտրանքի արժեքը.:
 
 `sfdk --drop {{name}}`
 

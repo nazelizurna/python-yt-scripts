@@ -1,13 +1,13 @@
 # էսպանսո
 
-> Cross-platform Text Expander գրված Rust-ով:
-> Լրացուցիչ տեղեկություններ. <https://espanso.org/docs/command%20lIne/cli_list/>:
+> Cross-platform Text Expander գրված Rust-ով:.
+> Լրացուցիչ տեղեկություններ. <https://espanso.org/docs/command%20lIne/cli_list/>:.
 
-- Ստուգեք կարգավիճակը.
+- Ստուգեք կարգավիճակը.:
 
 `espanso status`
 
-- Խմբագրել կոնֆիգուրացիան.
+- Խմբագրել կոնֆիգուրացիան.:
 
 `espanso edit config`
 
@@ -15,6 +15,6 @@
 
 `espanso install {{package}}`
 
-- Վերագործարկեք (պահանջվում է փաթեթը տեղադրելուց հետո, օգտակար է ձախողման դեպքում).
+- Վերագործարկեք (պահանջվում է փաթեթը տեղադրելուց հետո, օգտակար է ձախողման դեպքում).:
 
 `espanso restart`

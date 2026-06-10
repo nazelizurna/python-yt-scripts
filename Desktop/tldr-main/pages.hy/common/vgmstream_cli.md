@@ -1,17 +1,17 @@
 # vgmstream_cli
 
-> Նվագարկեք տեսախաղերում օգտագործվող աուդիո ձևաչափերի լայն տեսականի և փոխարկեք դրանք `wav`-ի:
-> Լրացուցիչ տեղեկություններ. <https://github.com/vgmstream/vgmstream/blob/master/doc/USAGE.md>:
+> Նվագարկեք տեսախաղերում օգտագործվող աուդիո ձևաչափերի լայն տեսականի և փոխարկեք դրանք `wav`-ի:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/vgmstream/vgmstream/blob/master/doc/USAGE.md>:.
 
 - Վերծանեք `adc` ֆայլը `wav`: (Լռակյաց ելքային անունը `input.wav` է):
 
 `vgmstream_cli {{path/to/input.adc}} -o {{path/to/output.wav}}`
 
-- Տպեք մետատվյալներ՝ առանց աուդիո վերծանման.
+- Տպեք մետատվյալներ՝ առանց աուդիո վերծանման.:
 
 `vgmstream_cli {{path/to/input.adc}} -m`
 
-- Ապակոդավորեք աուդիո ֆայլ առանց հանգույցների.
+- Ապակոդավորեք աուդիո ֆայլ առանց հանգույցների.:
 
 `vgmstream_cli {{path/to/input.adc}} -o {{path/to/output.wav}} -i`
 

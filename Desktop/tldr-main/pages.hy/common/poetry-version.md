@@ -1,19 +1,19 @@
 # բանաստեղծական տարբերակ
 
-> Կառավարեք Poetry նախագծի տարբերակը:
-> Ենթադրում է ծրագրի հետևյալ փուլերը՝ `patch`, `minor`, `major`, `prepatch`, `preminor`, `premajor`, `prerelease`:
-> Տես նաև՝ `asdf`:
-> Լրացուցիչ տեղեկություններ. <https://python-poetry.org/docs/cli/#version>:
+> Կառավարեք Poetry նախագծի տարբերակը:.
+> Ենթադրում է ծրագրի հետևյալ փուլերը՝ `patch`, `minor`, `major`, `prepatch`, `preminor`, `premajor`, `prerelease`:.
+> Տես նաև՝ `asdf`:.
+> Լրացուցիչ տեղեկություններ. <https://python-poetry.org/docs/cli/#version>:.
 
-- Արտադրեք ընթացիկ տարբերակը.
+- Արտադրեք ընթացիկ տարբերակը.:
 
 `poetry version {{[-s|--short]}}`
 
-- Նախագիծը դնել որոշակի փուլի.
+- Նախագիծը դնել որոշակի փուլի.:
 
 `poetry version {{stage}}`
 
-- Ավելացրեք նախագիծը հաջորդ նախնական թողարկման փուլ.
+- Ավելացրեք նախագիծը հաջորդ նախնական թողարկման փուլ.:
 
 `poetry version --next-phase`
 

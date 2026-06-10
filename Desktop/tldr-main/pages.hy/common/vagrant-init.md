@@ -1,26 +1,26 @@
 # թափառաշրջիկ նախաձեռնություն
 
-> Նախաձեռնեք Vagrant միջավայրը ընթացիկ գրացուցակում՝ ստեղծելով `Vagrantfile`:
-> Տես նաև՝ `vagrant`:
-> Լրացուցիչ տեղեկություններ. <https://developer.hashicorp.com/vagrant/docs/cli/init>:
+> Նախաձեռնեք Vagrant միջավայրը ընթացիկ գրացուցակում՝ ստեղծելով `Vagrantfile`:.
+> Տես նաև՝ `vagrant`:.
+> Լրացուցիչ տեղեկություններ. <https://developer.hashicorp.com/vagrant/docs/cli/init>:.
 
 - Ստեղծեք `Vagrantfile`:
 
 `vagrant init`
 
-- Ստեղծեք `Vagrantfile` առանց հրահանգչական մեկնաբանությունների.
+- Ստեղծեք `Vagrantfile` առանց հրահանգչական մեկնաբանությունների.:
 
 `vagrant init {{[-m|--minimal]}}`
 
-- Նշեք տուփի անունը և URL-ը.
+- Նշեք տուփի անունը և URL-ը.:
 
 `vagrant init {{box_name}} {{box_url}}`
 
-- Ստեղծեք `Vagrantfile` կոնկրետ տուփի տարբերակով.
+- Ստեղծեք `Vagrantfile` կոնկրետ տուփի տարբերակով.:
 
 `vagrant init --box-version {{version}} {{box_name}}`
 
-- Ուղարկեք `Vagrantfile`-ը `stdout` հասցեին՝
+- Ուղարկեք `Vagrantfile`-ը `stdout` հասցեին՝:
 
 `vagrant init {{[-o|--output]}} -`
 

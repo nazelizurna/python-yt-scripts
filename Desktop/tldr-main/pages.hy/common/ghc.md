@@ -1,18 +1,18 @@
 # ghc
 
-> Glasgow Haskell Compiler-ը:
-> Կազմում և կապում է Haskell աղբյուրի ֆայլերը:
-> Լրացուցիչ տեղեկություններ. <https://downloads.haskell.org/ghc/latest/docs/users_guide/usage.html>:
+> Glasgow Haskell Compiler-ը:.
+> Կազմում և կապում է Haskell աղբյուրի ֆայլերը:.
+> Լրացուցիչ տեղեկություններ. <https://downloads.haskell.org/ghc/latest/docs/users_guide/usage.html>:.
 
-- Գտեք և կազմեք բոլոր մոդուլները ընթացիկ գրացուցակում.
+- Գտեք և կազմեք բոլոր մոդուլները ընթացիկ գրացուցակում.:
 
 `ghc Main`
 
-- Կազմել մեկ ֆայլ.
+- Կազմել մեկ ֆայլ.:
 
 `ghc {{path/to/file.hs}}`
 
-- Կազմել՝ օգտագործելով լրացուցիչ օպտիմալացում.
+- Կազմել՝ օգտագործելով լրացուցիչ օպտիմալացում.:
 
 `ghc -O {{path/to/file.hs}}`
 
@@ -20,10 +20,10 @@
 
 `ghc -c {{path/to/file.hs}}`
 
-- Սկսեք REPL (ինտերակտիվ կեղև).
+- Սկսեք REPL (ինտերակտիվ կեղև).:
 
 `ghci`
 
-- Գնահատեք մեկ արտահայտություն.
+- Գնահատեք մեկ արտահայտություն.:
 
 `ghc -e {{expression}}`

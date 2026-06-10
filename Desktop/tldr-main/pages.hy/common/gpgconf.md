@@ -1,24 +1,24 @@
 # gpgconf
 
-> Փոփոխել `.gnupg` տնային գրացուցակները:
-> Լրացուցիչ տեղեկություններ. <https://www.gnupg.org/documentation/manuals/gnupg/gpgconf.html>:
+> Փոփոխել `.gnupg` տնային գրացուցակները:.
+> Լրացուցիչ տեղեկություններ. <https://www.gnupg.org/documentation/manuals/gnupg/gpgconf.html>:.
 
-- Նշեք բոլոր բաղադրիչները.
+- Նշեք բոլոր բաղադրիչները.:
 
 `gpgconf --list-components`
 
-- Թվարկեք gpgconf-ի կողմից օգտագործվող դիրեկտորիաները.
+- Թվարկեք gpgconf-ի կողմից օգտագործվող դիրեկտորիաները.:
 
 `gpgconf {{[-L|--list-dirs]}}`
 
-- Նշեք բաղադրիչի բոլոր տարբերակները.
+- Նշեք բաղադրիչի բոլոր տարբերակները.:
 
 `gpgconf --list-options {{component}}`
 
-- Թվարկեք ծրագրերը և ստուգեք, թե արդյոք դրանք գործարկվում են.
+- Թվարկեք ծրագրերը և ստուգեք, թե արդյոք դրանք գործարկվում են.:
 
 `gpgconf --check-programs`
 
-- Վերբեռնեք բաղադրիչը.
+- Վերբեռնեք բաղադրիչը.:
 
 `gpgconf --reload {{component}}`

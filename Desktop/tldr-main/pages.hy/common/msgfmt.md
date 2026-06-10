@@ -1,9 +1,9 @@
 # msgfmt
 
-> Կազմել հաղորդագրությունների կատալոգը երկուական ձևաչափով:
-> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/gettext/manual/gettext.html#msgfmt-Invocation>:
+> Կազմել հաղորդագրությունների կատալոգը երկուական ձևաչափով:.
+> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/gettext/manual/gettext.html#msgfmt-Invocation>:.
 
-- Կազմել ֆայլ `messages.mo`՝
+- Կազմել ֆայլ `messages.mo`՝:
 
 `msgfmt {{file.po}}`
 
@@ -11,6 +11,6 @@
 
 `msgfmt {{path/to/file.po}} {{[-o|--output-file]}} {{path/to/file.mo}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `msgfmt {{[-h|--help]}}`

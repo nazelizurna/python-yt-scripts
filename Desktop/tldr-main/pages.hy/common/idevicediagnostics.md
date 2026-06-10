@@ -1,16 +1,16 @@
 # գաղափարական ախտորոշում
 
-> Փոխազդեք iOS սարքի ախտորոշիչ ինտերֆեյսի հետ:
-> Լրացուցիչ տեղեկություններ. <https://manned.org/idevicediagnostics>:
+> Փոխազդեք iOS սարքի ախտորոշիչ ինտերֆեյսի հետ:.
+> Լրացուցիչ տեղեկություններ. <https://manned.org/idevicediagnostics>:.
 
-- Տպել ախտորոշիչ տեղեկատվություն.
+- Տպել ախտորոշիչ տեղեկատվություն.:
 
 `idevicediagnostics diagnostics`
 
-- Տպել mobilegestalt բանալի արժեքները.
+- Տպել mobilegestalt բանալի արժեքները.:
 
 `idevicediagnostics mobilegestalt {{key1}} {{key2}}`
 
-- Անջատեք, վերագործարկեք կամ քնեք սարքը.
+- Անջատեք, վերագործարկեք կամ քնեք սարքը.:
 
 `idevicediagnostics {{shutdown|restart|sleep}}`

@@ -1,9 +1,9 @@
 #վերադարձնել
 
-> Տպել գրառումները recfile-ից. մարդու կողմից խմբագրվող, պարզ տեքստային տվյալների բազա:
-> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/recutils/manual/recutils.html#Invoking-recsel>:
+> Տպել գրառումները recfile-ից. մարդու կողմից խմբագրվող, պարզ տեքստային տվյալների բազա:.
+> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/recutils/manual/recutils.html#Invoking-recsel>:.
 
-- Քաղեք անունը և տարբերակի դաշտը.
+- Քաղեք անունը և տարբերակի դաշտը.:
 
 `recsel {{[-p|--print]}} name,version {{data.rec}}`
 
@@ -11,6 +11,6 @@
 
 `recsel {{[-e|--expression]}} "{{field_name}} ~ '{{regex}}' {{data.rec}}"`
 
-- Օգտագործեք պրեդիկատ՝ անվանը և տարբերակին համապատասխանելու համար.
+- Օգտագործեք պրեդիկատ՝ անվանը և տարբերակին համապատասխանելու համար.:
 
 `recsel {{[-e|--expression]}} "name ~ '{{regex}}' && version ~ '{{regex}}'" {{data.rec}}`

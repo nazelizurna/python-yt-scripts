@@ -1,13 +1,13 @@
 # rawtopgm
 
-> Վերափոխեք չմշակված մոխրագույն մասշտաբի պատկերը PGM պատկերի:
-> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/rawtopgm.html>:
+> Վերափոխեք չմշակված մոխրագույն մասշտաբի պատկերը PGM պատկերի:.
+> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/rawtopgm.html>:.
 
-- Վերափոխեք չմշակված մոխրագույն մասշտաբի պատկերը PGM պատկերի.
+- Վերափոխեք չմշակված մոխրագույն մասշտաբի պատկերը PGM պատկերի.:
 
 `rawtopgm {{width}} {{height}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
-- Վերափոխեք չմշակված մոխրագույն մասշտաբի պատկերը PGM պատկերի, ենթադրեք, որ պատկերը քառակուսի է.
+- Վերափոխեք չմշակված մոխրագույն մասշտաբի պատկերը PGM պատկերի, ենթադրեք, որ պատկերը քառակուսի է.:
 
 `rawtopgm {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
@@ -15,11 +15,11 @@
 
 `rawtopgm {{width}} {{height}} {{[-bt|-bottomfirst]}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
-- Անտեսեք նշված ֆայլի առաջին `n` բայթերը.
+- Անտեսեք նշված ֆայլի առաջին `n` բայթերը.:
 
 `rawtopgm {{width}} {{height}} {{[-h|-headerskip]}} {{n}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 
-- Անտեսեք նշված ֆայլի յուրաքանչյուր տողի վերջին մ բայթերը.
+- Անտեսեք նշված ֆայլի յուրաքանչյուր տողի վերջին մ բայթերը.:
 
 `rawtopgm {{width}} {{height}} {{[-r|-rowskip]}} {{m}} {{path/to/image.raw}} > {{path/to/output.pgm}}`
 

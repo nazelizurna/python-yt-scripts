@@ -1,17 +1,17 @@
 #կիվի-նգ
 
-> ՕՀ-ի պատկերների և սարքերի ստեղծող:
-> Լրացուցիչ տեղեկություններ. <https://osinside.github.io/kiwi/>:
+> ՕՀ-ի պատկերների և սարքերի ստեղծող:.
+> Լրացուցիչ տեղեկություններ. <https://osinside.github.io/kiwi/>:.
 
-- Կառուցեք սարքավորում.
+- Կառուցեք սարքավորում.:
 
 `kiwi-ng system build --description={{path/to/directory}} --target-dir={{path/to/directory}}`
 
-- Ցույց տալ կառուցված սարքի կառուցման արդյունքը.
+- Ցույց տալ կառուցված սարքի կառուցման արդյունքը.:
 
 `kiwi-ng result list --target-dir={{path/to/directory}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `kiwi-ng help`
 

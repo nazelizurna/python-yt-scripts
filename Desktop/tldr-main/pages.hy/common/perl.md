@@ -1,8 +1,8 @@
 #պերլ
 
-> Perl 5 լեզվի թարգմանիչը:
-> Տես նաև՝ `perldoc`:
-> Լրացուցիչ տեղեկություններ. <https://perldoc.perl.org/perl>:
+> Perl 5 լեզվի թարգմանիչը:.
+> Տես նաև՝ `perldoc`:.
+> Լրացուցիչ տեղեկություններ. <https://perldoc.perl.org/perl>:.
 
 - Տպեք տողեր `stdin` [m]-ից՝ կցելով `regex1`-ը և մեծատառերի [i]անզգայուն `regex2`:
 
@@ -12,6 +12,6 @@
 
 `perl -n -E 'say $1 if m/{{before}} ( {{group_regex}} ) {{after}}/x'`
 
-- [i]n-տեղ, կրկնօրինակով, [s]փոխարինել `regex`-ի բոլոր դեպքերը ([g]) փոխարինողով՝
+- [i]n-տեղ, կրկնօրինակով, [s]փոխարինել `regex`-ի բոլոր դեպքերը ([g]) փոխարինողով՝:
 
 `perl -i'.bak' -p -e 's/regex/{{replacement}}/g' {{path/to/files}}`

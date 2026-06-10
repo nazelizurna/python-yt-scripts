@@ -1,32 +1,32 @@
 # fastboot
 
-> Շփվեք միացված Android սարքերի հետ bootloader ռեժիմում (մի տեղ ԱԶԲ-ն չի աշխատում):
-> Լրացուցիչ տեղեկություններ. <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>:
+> Շփվեք միացված Android սարքերի հետ bootloader ռեժիմում (մի տեղ ԱԶԲ-ն չի աշխատում):.
+> Լրացուցիչ տեղեկություններ. <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>:.
 
-- Բացեք bootloader-ը.
+- Բացեք bootloader-ը.:
 
 `fastboot oem unlock`
 
-- Վերակողպեք բեռնիչը.
+- Վերակողպեք բեռնիչը.:
 
 `fastboot oem lock`
 
-- Վերագործարկեք սարքը «fastboot» ռեժիմից նորից «fastboot» ռեժիմի մեջ.
+- Վերագործարկեք սարքը «fastboot» ռեժիմից նորից «fastboot» ռեժիմի մեջ.:
 
 `fastboot reboot bootloader`
 
-- Ցույց տալ տվյալ պատկերը.
+- Ցույց տալ տվյալ պատկերը.:
 
 `fastboot flash {{path/to/file.img}}`
 
-- Ֆլեշ մաքսային վերականգնման պատկեր.
+- Ֆլեշ մաքսային վերականգնման պատկեր.:
 
 `fastboot flash recovery {{path/to/file.img}}`
 
-- Ցուցակել միացված սարքերը.
+- Ցուցակել միացված սարքերը.:
 
 `fastboot devices`
 
-- Ցուցադրել սարքի բոլոր տեղեկությունները.
+- Ցուցադրել սարքի բոլոր տեղեկությունները.:
 
 `fastboot getvar all`

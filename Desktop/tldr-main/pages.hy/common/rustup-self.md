@@ -1,7 +1,7 @@
 # rustup self
 
-> Փոփոխեք `rustup` տեղադրումը:
-> Լրացուցիչ տեղեկություններ. <https://rust-lang.github.io/rustup/>:
+> Փոփոխեք `rustup` տեղադրումը:.
+> Լրացուցիչ տեղեկություններ. <https://rust-lang.github.io/rustup/>:.
 
 - Թարմացնել `rustup`:
 

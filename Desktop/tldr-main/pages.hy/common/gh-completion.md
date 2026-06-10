@@ -1,9 +1,9 @@
 # gh ավարտ
 
-> Ստեղծեք կեղևի ավարտման սկրիպտներ GitHub CLI հրամանների համար:
-> Լրացուցիչ տեղեկություններ. <https://cli.github.com/manual/gh_completion>:
+> Ստեղծեք կեղևի ավարտման սկրիպտներ GitHub CLI հրամանների համար:.
+> Լրացուցիչ տեղեկություններ. <https://cli.github.com/manual/gh_completion>:.
 
-- Տպել ավարտական սցենար.
+- Տպել ավարտական սցենար.:
 
 `gh completion {{[-s|--shell]}} {{bash|zsh|fish|powershell}}`
 
@@ -15,6 +15,6 @@
 
 `gh completion {{[-s|--shell]}} zsh >> ~/.zshrc`
 
-- Ցուցադրել ենթահրամանի օգնությունը.
+- Ցուցադրել ենթահրամանի օգնությունը.:
 
 `gh completion`

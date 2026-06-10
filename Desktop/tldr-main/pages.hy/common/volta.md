@@ -1,17 +1,17 @@
 #վոլտա
 
-> JavaScript Tool Manager-ը, որը տեղադրում է Node.js-ի գործարկման ժամանակները, npm և Yarn փաթեթների կառավարիչները կամ npm-ից ցանկացած երկուական:
-> Լրացուցիչ տեղեկություններ. <https://docs.volta.sh/reference/>:
+> JavaScript Tool Manager-ը, որը տեղադրում է Node.js-ի գործարկման ժամանակները, npm և Yarn փաթեթների կառավարիչները կամ npm-ից ցանկացած երկուական:.
+> Լրացուցիչ տեղեկություններ. <https://docs.volta.sh/reference/>:.
 
-- Թվարկեք բոլոր տեղադրված գործիքները.
+- Թվարկեք բոլոր տեղադրված գործիքները.:
 
 `volta list`
 
-- Տեղադրեք գործիքի վերջին տարբերակը.
+- Տեղադրեք գործիքի վերջին տարբերակը.:
 
 `volta install {{node|npm|yarn|package_name}}`
 
-- Տեղադրեք գործիքի որոշակի տարբերակ.
+- Տեղադրեք գործիքի որոշակի տարբերակ.:
 
 `volta install {{node|npm|yarn}}@version`
 
@@ -19,10 +19,10 @@
 
 `volta pin {{node|npm|yarn}}@version`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `volta help`
 
-- Ցուցադրել օգնություն ենթահրամանի համար.
+- Ցուցադրել օգնություն ենթահրամանի համար.:
 
 `volta help {{fetch|install|uninstall|pin|list|completions|which|setup|run|help}}`

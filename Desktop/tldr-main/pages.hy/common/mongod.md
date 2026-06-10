@@ -1,13 +1,13 @@
 #մոնաստված
 
-> MongoDB տվյալների բազայի սերվեր:
-> Լրացուցիչ տեղեկություններ. <https://www.mongodb.com/docs/manual/reference/program/mongod/>:
+> MongoDB տվյալների բազայի սերվեր:.
+> Լրացուցիչ տեղեկություններ. <https://www.mongodb.com/docs/manual/reference/program/mongod/>:.
 
 - Նշեք պահեստավորման գրացուցակը (կանխադրված՝ `/data/db` Linux-ում և macOS-ում, `C:\data\db` Windows-ում):
 
 `mongod --dbpath {{path/to/directory}}`
 
-- Նշեք կազմաձևման ֆայլը.
+- Նշեք կազմաձևման ֆայլը.:
 
 `mongod --config {{path/to/file}}`
 

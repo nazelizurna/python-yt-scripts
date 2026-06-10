@@ -1,9 +1,9 @@
 #փեթակ
 
-> Գործիք Apache Hive-ի համար:
-> Լրացուցիչ տեղեկություններ. <https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Cli>:
+> Գործիք Apache Hive-ի համար:.
+> Լրացուցիչ տեղեկություններ. <https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Cli>:.
 
-- Սկսեք Hive ինտերակտիվ կեղևը.
+- Սկսեք Hive ինտերակտիվ կեղևը.:
 
 `hive`
 
@@ -11,7 +11,7 @@
 
 `hive -e "{{hiveql_query}}"`
 
-- Գործարկեք HiveQL ֆայլը փոփոխական փոխարինմամբ.
+- Գործարկեք HiveQL ֆայլը փոփոխական փոխարինմամբ.:
 
 `hive {{[-d|--define]}} {{key}}={{value}} -f {{path/to/file.sql}}`
 

@@ -1,22 +1,22 @@
 # secretsdump.py
 
-> Թափել NTLM հեշերը, պարզ տեքստի գաղտնաբառերը և տիրույթի հավատարմագրերը հեռավոր Windows համակարգերից:
-> Impacket փաթեթի մի մասը:
-> Լրացուցիչ տեղեկություններ. <https://github.com/fortra/impacket>:
+> Թափել NTLM հեշերը, պարզ տեքստի գաղտնաբառերը և տիրույթի հավատարմագրերը հեռավոր Windows համակարգերից:.
+> Impacket փաթեթի մի մասը:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/fortra/impacket>:.
 
-- Թափել հավատարմագրերը Windows սարքից՝ օգտագործելով օգտվողի անուն և գաղտնաբառ.
+- Թափել հավատարմագրերը Windows սարքից՝ օգտագործելով օգտվողի անուն և գաղտնաբառ.:
 
 `secretsdump.py {{domain}}/{{username}}:{{password}}@{{target}}`
 
-- Թափել հեշերը մեքենայից՝ օգտագործելով pass-the-hash վավերացում.
+- Թափել հեշերը մեքենայից՝ օգտագործելով pass-the-hash վավերացում.:
 
 `secretsdump.py -hashes {{LM_Hash}}:{{NT_Hash}} {{domain}}/{{username}}@{{target}}`
 
-- Թափել հավատարմագրերը Active Directory-ի NTDS.dit ֆայլից.
+- Թափել հավատարմագրերը Active Directory-ի NTDS.dit ֆայլից.:
 
 `secretsdump.py -just-dc {{domain}}/{{username}}:{{password}}@{{target}}`
 
-- Քաղեք հավատարմագրերը տեղական SAM տվյալների բազայից՝ օգտագործելով ռեեստրի փեթակները.
+- Քաղեք հավատարմագրերը տեղական SAM տվյալների բազայից՝ օգտագործելով ռեեստրի փեթակները.:
 
 `secretsdump.py -sam {{path/to/SAM}} -system {{path/to/SYSTEM}}`
 

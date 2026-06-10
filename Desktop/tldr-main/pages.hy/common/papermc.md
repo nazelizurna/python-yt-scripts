@@ -1,28 +1,28 @@
 #թղթե մկ
 
-> Կառավարեք Minecraft սերվերը:
-> Լրացուցիչ տեղեկություններ. <https://github.com/Edenhofer/minecraft-server/blob/main/minecraftd.sh.in#L480>:
+> Կառավարեք Minecraft սերվերը:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/Edenhofer/minecraft-server/blob/main/minecraftd.sh.in#L480>:.
 
-- Սկսեք սերվեր.
+- Սկսեք սերվեր.:
 
 `papermc start`
 
-- Դադարեցրեք սերվերը.
+- Դադարեցրեք սերվերը.:
 
 `papermc stop`
 
-- Վերագործարկեք սերվերը.
+- Վերագործարկեք սերվերը.:
 
 `papermc restart`
 
-- Կրկնօրինակեք աշխարհը.
+- Կրկնօրինակեք աշխարհը.:
 
 `papermc backup`
 
-- Վերականգնել աշխարհի տվյալները կրկնօրինակից.
+- Վերականգնել աշխարհի տվյալները կրկնօրինակից.:
 
 `papermc restore {{path/to/file}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `papermc`

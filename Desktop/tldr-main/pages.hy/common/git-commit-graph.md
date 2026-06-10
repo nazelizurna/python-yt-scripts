@@ -1,13 +1,13 @@
 # git commit-graph
 
-> Գրեք և հաստատեք Git commit-graph ֆայլերը:
-> Լրացուցիչ տեղեկություններ. <https://git-scm.com/docs/git-commit-graph>:
+> Գրեք և հաստատեք Git commit-graph ֆայլերը:.
+> Լրացուցիչ տեղեկություններ. <https://git-scm.com/docs/git-commit-graph>:.
 
-- Գրեք commit-graph ֆայլ փաթեթավորված պարտավորությունների համար պահեստի տեղական `.git` գրացուցակում.
+- Գրեք commit-graph ֆայլ փաթեթավորված պարտավորությունների համար պահեստի տեղական `.git` գրացուցակում.:
 
 `git commit-graph write`
 
-- Գրեք commit-graph ֆայլ, որը պարունակում է բոլոր հասանելի պարտավորությունները.
+- Գրեք commit-graph ֆայլ, որը պարունակում է բոլոր հասանելի պարտավորությունները.:
 
 `git show-ref {{[-s|--hash]}} | git commit-graph write --stdin-commits`
 

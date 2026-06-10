@@ -1,7 +1,7 @@
 #փոխանցում
 
 > Փոխանցման համար ոչ պաշտոնական հաճախորդ.sh.
-> Լրացուցիչ տեղեկություններ. <https://github.com/AlpixTM/transfersh>:
+> Լրացուցիչ տեղեկություններ. <https://github.com/AlpixTM/transfersh>:.
 
 - Վերբեռնեք ֆայլ transfer.sh-ում:
 
@@ -11,15 +11,15 @@
 
 `transfersh {{[-p|--progress]}} {{path/to/file}}`
 
-- Վերբեռնեք ֆայլ՝ օգտագործելով այլ ֆայլի անուն.
+- Վերբեռնեք ֆայլ՝ օգտագործելով այլ ֆայլի անուն.:
 
 `transfersh {{[-n|--name]}} {{filename}} {{path/to/file}}`
 
-- Վերբեռնեք ֆայլ մաքսային transfer.sh սերվեր.
+- Վերբեռնեք ֆայլ մաքսային transfer.sh սերվեր.:
 
 `transfersh {{[-sn|--servername]}} {{upload.server.name}} {{path/to/file}}`
 
-- Վերբեռնեք բոլոր ֆայլերը գրացուցակից ռեկուրսիվ կերպով.
+- Վերբեռնեք բոլոր ֆայլերը գրացուցակից ռեկուրսիվ կերպով.:
 
 `transfersh {{[-r|--recursive]}} {{path/to/directory}}/`
 

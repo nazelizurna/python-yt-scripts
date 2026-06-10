@@ -1,17 +1,17 @@
 # ncspot
 
-> Cross-platform TUI Spotify հաճախորդ:
-> Լրացուցիչ տեղեկություններ. <https://github.com/hrkfdn/ncspot/blob/main/doc/users.md>:
+> Cross-platform TUI Spotify հաճախորդ:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/hrkfdn/ncspot/blob/main/doc/users.md>:.
 
 - Սկսել `ncspot`:
 
 `ncspot`
 
-- Միացնել մուտքագրումը նշված ֆայլին.
+- Միացնել մուտքագրումը նշված ֆայլին.:
 
 `ncspot {{[-d|--debug]}} {{path/to/file}}`
 
-- Ցուցադրել կոնֆիգուրացիայի և քեշի ուղիները.
+- Ցուցադրել կոնֆիգուրացիայի և քեշի ուղիները.:
 
 `ncspot info`
 
@@ -19,6 +19,6 @@
 
 `ncspot {{[-c|--config]}} {{file_name}}`
 
-- Ցուցադրել ստեղնաշարերի ցանկը.
+- Ցուցադրել ստեղնաշարերի ցանկը.:
 
 `<?>`

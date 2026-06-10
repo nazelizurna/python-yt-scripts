@@ -1,8 +1,8 @@
 # ffmpeg
 
-> Տեսանյութերի փոխակերպման գործիք:
-> Տես նաև՝ `gst-launch-1.0`:
-> Լրացուցիչ տեղեկություններ. <https://ffmpeg.org/ffmpeg.html#Options>:
+> Տեսանյութերի փոխակերպման գործիք:.
+> Տես նաև՝ `gst-launch-1.0`:.
+> Լրացուցիչ տեղեկություններ. <https://ffmpeg.org/ffmpeg.html#Options>:.
 
 - Հանեք ձայնը տեսանյութից և պահեք այն որպես MP3:
 
@@ -16,7 +16,7 @@
 
 `ffmpeg -i {{path/to/video.mp4}} {{[-vf|-filter:v]}} 'scale=-1:1000' -r 15 {{path/to/output.gif}}`
 
-- Համակցեք համարակալված պատկերները (`frame_1.jpg`, `frame_2.jpg` և այլն) տեսանյութի կամ GIF-ի մեջ.
+- Համակցեք համարակալված պատկերները (`frame_1.jpg`, `frame_2.jpg` և այլն) տեսանյութի կամ GIF-ի մեջ.:
 
 `ffmpeg -i {{path/to/frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
 
@@ -28,7 +28,7 @@
 
 `ffmpeg -i {{path/to/input_video}}.avi {{[-c|-codec]}}:a aac -b:a 128k {{[-c|-codec]}}:v libx264 -crf 23 {{path/to/output_video}}.mp4`
 
-- Remux MKV վիդեո MP4-ին՝ առանց աուդիո կամ վիդեո հոսքերի վերակոդավորման.
+- Remux MKV վիդեո MP4-ին՝ առանց աուդիո կամ վիդեո հոսքերի վերակոդավորման.:
 
 `ffmpeg -i {{path/to/input_video}}.mkv {{[-c|-codec]}} copy {{path/to/output_video}}.mp4`
 

@@ -1,20 +1,20 @@
 # sdkmanager
 
-> Տեղադրեք փաթեթներ Android SDK-ի համար:
-> Լրացուցիչ տեղեկություններ. <https://developer.android.com/tools/sdkmanager>:
+> Տեղադրեք փաթեթներ Android SDK-ի համար:.
+> Լրացուցիչ տեղեկություններ. <https://developer.android.com/tools/sdkmanager>:.
 
-- Ցուցակեք առկա փաթեթները.
+- Ցուցակեք առկա փաթեթները.:
 
 `sdkmanager --list`
 
-- Տեղադրեք փաթեթ.
+- Տեղադրեք փաթեթ.:
 
 `sdkmanager {{package}}`
 
-- Թարմացրեք յուրաքանչյուր տեղադրված փաթեթ.
+- Թարմացրեք յուրաքանչյուր տեղադրված փաթեթ.:
 
 `sdkmanager --update`
 
-- Ապատեղադրել փաթեթը.
+- Ապատեղադրել փաթեթը.:
 
 `sdkmanager --uninstall {{package}}`

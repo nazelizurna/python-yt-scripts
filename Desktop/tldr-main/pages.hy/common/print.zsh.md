@@ -1,14 +1,14 @@
 #տպել
 
-> Z Shell (`zsh`) ներկառուցված: Տպել արգումենտներ, որոնք նման են `echo`-ին:
-> Տես նաև՝ `echo`, `printf`, `zsh`:
-> Լրացուցիչ տեղեկություններ. <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>:
+> Z Shell (`zsh`) ներկառուցված: Տպել արգումենտներ, որոնք նման են `echo`-ին:.
+> Տես նաև՝ `echo`, `printf`, `zsh`:.
+> Լրացուցիչ տեղեկություններ. <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>:.
 
-- Տպել մուտքագրում.
+- Տպել մուտքագրում.:
 
 `print "Hello" "World"`
 
-- Տպել՝ առանձնացված նոր տողով.
+- Տպել՝ առանձնացված նոր տողով.:
 
 `print -l "Line1" "Line 2" "Line3"`
 
@@ -16,7 +16,7 @@
 
 `print -n "Hello"; print "World"`
 
-- Միացնել հետշեղի փախուստները.
+- Միացնել հետշեղի փախուստները.:
 
 `print -e "Line 1\nLine2"`
 

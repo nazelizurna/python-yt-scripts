@@ -1,9 +1,9 @@
 # msgunfmt
 
-> Ապակոմպիլացրեք հաղորդագրությունների կատալոգը երկուական ձևաչափից:
-> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/gettext/manual/gettext.html#msgunfmt-Invocation>:
+> Ապակոմպիլացրեք հաղորդագրությունների կատալոգը երկուական ձևաչափից:.
+> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/gettext/manual/gettext.html#msgunfmt-Invocation>:.
 
-- Արդյունքների փոխարկում.
+- Արդյունքների փոխարկում.:
 
 `msgunfmt {{path/to/file.mo}}`
 

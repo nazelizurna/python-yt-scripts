@@ -1,7 +1,7 @@
 # kubectl port-forward
 
-> Փոխանցել մեկ կամ մի քանի տեղական նավահանգիստներ դեպի պատիճ:
-> Լրացուցիչ տեղեկություններ. <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_port-forward/>:
+> Փոխանցել մեկ կամ մի քանի տեղական նավահանգիստներ դեպի պատիճ:.
+> Լրացուցիչ տեղեկություններ. <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_port-forward/>:.
 
 - Փոխանցել տեղական 5000 և 6000 նավահանգիստները դեպի pod նավահանգիստներ 5000 և 6000:
 
@@ -11,7 +11,7 @@
 
 `kubectl port-forward {{[po|pods]}}/{{pod_name}} :5000`
 
-- Փոխանցել տեղական 5000 և 6000 նավահանգիստները տեղակայման 5000 և 6000 նավահանգիստներին.
+- Փոխանցել տեղական 5000 և 6000 նավահանգիստները տեղակայման 5000 և 6000 նավահանգիստներին.:
 
 `kubectl port-forward {{[deploy|deployment]}}/{{deployment_name}} 5000 6000`
 

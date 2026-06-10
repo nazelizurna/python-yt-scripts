@@ -1,9 +1,9 @@
 # fnm
 
-> Արագ Node.js տարբերակի կառավարիչ:
-> Լրացուցիչ տեղեկություններ. <https://github.com/Schniz/fnm/blob/master/docs/commands.md>:
+> Արագ Node.js տարբերակի կառավարիչ:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/Schniz/fnm/blob/master/docs/commands.md>:.
 
-- Տեղադրեք Node.js-ի կոնկրետ տարբերակը.
+- Տեղադրեք Node.js-ի կոնկրետ տարբերակը.:
 
 `fnm {{[i|install]}} {{node_version}}`
 
@@ -11,18 +11,18 @@
 
 `fnm {{[i|install]}} --lts`
 
-- Թվարկե՛ք Node.js-ի բոլոր հասանելի տարբերակները և ընդգծե՛ք լռելյայնը՝
+- Թվարկե՛ք Node.js-ի բոլոր հասանելի տարբերակները և ընդգծե՛ք լռելյայնը՝:
 
 `fnm {{[ls|list]}}`
 
-- Օգտագործեք Node.js-ի կոնկրետ տարբերակը ընթացիկ վահանակում.
+- Օգտագործեք Node.js-ի կոնկրետ տարբերակը ընթացիկ վահանակում.:
 
 `fnm use {{node_version}}`
 
-- Սահմանեք Node.js-ի լռելյայն տարբերակը.
+- Սահմանեք Node.js-ի լռելյայն տարբերակը.:
 
 `fnm default {{node_version}}`
 
-- Տեղահանեք տրված Node.js տարբերակը.
+- Տեղահանեք տրված Node.js տարբերակը.:
 
 `fnm {{[uni|uninstall]}} {{node_version}}`

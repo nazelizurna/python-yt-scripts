@@ -1,13 +1,13 @@
 # fswebcam
 
-> Փոքր և պարզ վեբ-տեսախցիկ *nix-ի համար:
-> Լրացուցիչ տեղեկություններ. <https://www.sanslogic.co.uk/fswebcam/>:
+> Փոքր և պարզ վեբ-տեսախցիկ *nix-ի համար:.
+> Լրացուցիչ տեղեկություններ. <https://www.sanslogic.co.uk/fswebcam/>:.
 
-- Նկարիր.
+- Նկարիր.:
 
 `fswebcam {{filename}}`
 
-- Լուսանկարեք հատուկ լուծաչափով.
+- Լուսանկարեք հատուկ լուծաչափով.:
 
 `fswebcam {{[-r|--resolution]}} {{width}}x{{height}} {{filename}}`
 

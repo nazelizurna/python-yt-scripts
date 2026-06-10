@@ -1,13 +1,13 @@
 # dirname
 
-> Հեռացրեք ֆայլի անվանման վերջնամասը ուղուց:
-> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>:
+> Հեռացրեք ֆայլի անվանման վերջնամասը ուղուց:.
+> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>:.
 
-- Հաշվեք տվյալ ճանապարհի մայր գրացուցակը.
+- Հաշվեք տվյալ ճանապարհի մայր գրացուցակը.:
 
 `dirname {{path/to/file_or_directory}}`
 
-- Հաշվեք բազմաթիվ ուղիների մայր գրացուցակը.
+- Հաշվեք բազմաթիվ ուղիների մայր գրացուցակը.:
 
 `dirname {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 

@@ -1,13 +1,13 @@
 # slimrb
 
-> Փոխարկել Slim ֆայլերը HTML-ի:
-> Լրացուցիչ տեղեկություններ. <https://rubydoc.info/gems/slim/frames#slim-command-slimrb>:
+> Փոխարկել Slim ֆայլերը HTML-ի:.
+> Լրացուցիչ տեղեկություններ. <https://rubydoc.info/gems/slim/frames#slim-command-slimrb>:.
 
-- Փոխակերպեք Slim ֆայլը HTML-ի.
+- Փոխակերպեք Slim ֆայլը HTML-ի.:
 
 `slimrb {{input.slim}} {{output.html}}`
 
-- Փոխակերպեք Slim ֆայլը և ելքը գեղեցիկ HTML-ի.
+- Փոխակերպեք Slim ֆայլը և ելքը գեղեցիկ HTML-ի.:
 
 `slimrb --pretty {{input.slim}} {{output.html}}`
 

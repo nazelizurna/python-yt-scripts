@@ -1,28 +1,28 @@
 # kaggle մոդելներ
 
-> Կառավարեք Kaggle մոդելները:
-> Լրացուցիչ տեղեկություններ. <https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md#models>:
+> Կառավարեք Kaggle մոդելները:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md#models>:.
 
-- Ստացեք մոդել.
+- Ստացեք մոդել.:
 
 `kaggle {{[m|models]}} get "{{model_name}}"`
 
-- Թվարկեք բոլոր մոդելները.
+- Թվարկեք բոլոր մոդելները.:
 
 `kaggle {{[m|models]}} list`
 
-- Նախաձեռնել մետատվյալների ֆայլը մոդելի ստեղծման համար.
+- Նախաձեռնել մետատվյալների ֆայլը մոդելի ստեղծման համար.:
 
 `kaggle {{[m|models]}} init`
 
-- Ստեղծեք նոր մոդել.
+- Ստեղծեք նոր մոդել.:
 
 `kaggle {{[m|models]}} create`
 
-- Ջնջել մոդելը.
+- Ջնջել մոդելը.:
 
 `kaggle {{[m|models]}} delete "{{model_name}}"`
 
-- Թարմացրեք մոդելը.
+- Թարմացրեք մոդելը.:
 
 `kaggle {{[m|models]}} update`

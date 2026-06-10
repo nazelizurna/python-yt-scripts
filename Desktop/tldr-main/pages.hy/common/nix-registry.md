@@ -1,14 +1,14 @@
 # nix ռեեստր
 
-> Կառավարեք Nix flake ռեեստրը:
-> Տես նաև՝ `nix flake`:
-> Լրացուցիչ տեղեկություններ. <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-registry.html>:
+> Կառավարեք Nix flake ռեեստրը:.
+> Տես նաև՝ `nix flake`:.
+> Լրացուցիչ տեղեկություններ. <https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-registry.html>:.
 
-- Ամրացրեք `nixpkgs` տարբերակը վերին հոսանքի պահեստի ընթացիկ տարբերակին.
+- Ամրացրեք `nixpkgs` տարբերակը վերին հոսանքի պահեստի ընթացիկ տարբերակին.:
 
 `nix registry pin {{nixpkgs}}`
 
-- Ամրացրեք մուտքը մասնաճյուղի վերջին տարբերակին կամ GitHub պահեստի որոշակի վերանայմանը.
+- Ամրացրեք մուտքը մասնաճյուղի վերջին տարբերակին կամ GitHub պահեստի որոշակի վերանայմանը.:
 
 `nix registry pin {{entry}} {{github:owner/repo/branch_or_revision}}`
 
@@ -16,10 +16,10 @@
 
 `nix registry add {{entry}} {{github:owner/repo}}`
 
-- Հեռացնել գրանցամատյանի գրառումը.
+- Հեռացնել գրանցամատյանի գրառումը.:
 
 `nix registry remove {{entry}}`
 
-- Տեսեք փաստաթղթերը, թե ինչ են Nix flake ռեգիստրները.
+- Տեսեք փաստաթղթերը, թե ինչ են Nix flake ռեգիստրները.:
 
 `nix registry --help`

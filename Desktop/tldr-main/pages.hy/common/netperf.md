@@ -1,8 +1,8 @@
 # netperf
 
-> Հաճախորդի կողմից հրաման `netperf`-ի համար՝ համեմատական հավելված, որը չափում է ցանցի թողունակությունը: Նման է `iperf`-ին:
-> Տես նաև՝ `netserver`:
-> Լրացուցիչ տեղեկություններ. <https://hewlettpackard.github.io/netperf/doc/netperf.html#Global-Command_002dline-Options>:
+> Հաճախորդի կողմից հրաման `netperf`-ի համար՝ համեմատական հավելված, որը չափում է ցանցի թողունակությունը: Նման է `iperf`-ին:.
+> Տես նաև՝ `netserver`:.
+> Լրացուցիչ տեղեկություններ. <https://hewlettpackard.github.io/netperf/doc/netperf.html#Global-Command_002dline-Options>:.
 
 - Միացեք սերվերին որոշակի IP հասցեով լռելյայն պորտի միջոցով (12865):
 
@@ -12,7 +12,7 @@
 
 `netperf {{address}} -p {{port}}`
 
-- Նշեք նմուշառման [l] երկարությունը վայրկյաններով (կանխադրվածը 10 է).
+- Նշեք նմուշառման [l] երկարությունը վայրկյաններով (կանխադրվածը 10 է).:
 
 `netperf {{address}} -l {{seconds}}`
 

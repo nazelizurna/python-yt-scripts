@@ -1,8 +1,8 @@
 # ppmtotga
 
-> Այս հրամանը փոխարինվել է `pamtotga`-ով:
-> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/ppmtotga.html>:
+> Այս հրամանը փոխարինվել է `pamtotga`-ով:.
+> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/ppmtotga.html>:.
 
-- Դիտեք ընթացիկ հրամանի փաստաթղթերը.
+- Դիտեք ընթացիկ հրամանի փաստաթղթերը.:
 
 `tldr pamtotga`

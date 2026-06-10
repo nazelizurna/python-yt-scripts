@@ -1,15 +1,15 @@
 # yt-dlp
 
-> YouTube-dl պատառաքաղ՝ լրացուցիչ հնարավորություններով և ուղղումներով:
-> Ներբեռնեք տեսանյութեր YouTube-ից և այլ կայքերից:
-> Տես նաև՝ `ytfzf`:
-> Լրացուցիչ տեղեկություններ. <https://github.com/yt-dlp/yt-dlp#usage-and-options>:
+> YouTube-dl պատառաքաղ՝ լրացուցիչ հնարավորություններով և ուղղումներով:.
+> Ներբեռնեք տեսանյութեր YouTube-ից և այլ կայքերից:.
+> Տես նաև՝ `ytfzf`:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/yt-dlp/yt-dlp#usage-and-options>:.
 
-- Ներբեռնեք տեսահոլովակ կամ երգացանկ (ստորև բերված հրամանի լռելյայն ընտրանքներով).
+- Ներբեռնեք տեսահոլովակ կամ երգացանկ (ստորև բերված հրամանի լռելյայն ընտրանքներով).:
 
 `yt-dlp "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Թվարկեք տեսանյութի համար հասանելի ներբեռնվող ձևաչափերը.
+- Թվարկեք տեսանյութի համար հասանելի ներբեռնվող ձևաչափերը.:
 
 `yt-dlp {{[-F|--list-formats]}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
@@ -17,7 +17,7 @@
 
 `yt-dlp {{[-f|--format]}} "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Հանեք աուդիո տեսանյութից (պահանջվում է ffmpeg կամ ffprobe).
+- Հանեք աուդիո տեսանյութից (պահանջվում է ffmpeg կամ ffprobe).:
 
 `yt-dlp {{[-x|--extract-audio]}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
@@ -29,10 +29,10 @@
 
 `yt-dlp {{[-I|--playlist-items]}} 2,4:6,-1 "{{https://youtube.com/playlist?list=PLbzoR-pLrL6pTJfLQ3UwtB-3V4fimdqnA}}"`
 
-- Ներբեռնեք YouTube ալիքի/օգտատիրոջ բոլոր երգացանկերը, որոնք յուրաքանչյուր երգացանկը պահում են առանձին գրացուցակում.
+- Ներբեռնեք YouTube ալիքի/օգտատիրոջ բոլոր երգացանկերը, որոնք յուրաքանչյուր երգացանկը պահում են առանձին գրացուցակում.:
 
 `yt-dlp {{[-o|--output]}} "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/user/TheLinuxFoundation/playlists}}"`
 
-- Ներբեռնեք Udemy դասընթաց՝ յուրաքանչյուր գլուխ պահելով առանձին գրացուցակում.
+- Ներբեռնեք Udemy դասընթաց՝ յուրաքանչյուր գլուխ պահելով առանձին գրացուցակում.:
 
 `yt-dlp {{[-u|--username]}} {{user}} {{[-p|--password]}} {{password}} {{[-P|--paths]}} "{{path/to/directory}}" {{[-o|--output]}} "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "{{https://www.udemy.com/java-tutorial}}"`

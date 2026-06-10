@@ -1,9 +1,9 @@
 # համեմատել
 
-> Համեմատեք փաթեթները կոնդա միջավայրերի միջև:
-> Լրացուցիչ տեղեկություններ. <https://docs.conda.io/projects/conda/en/stable/commands/compare.html>:
+> Համեմատեք փաթեթները կոնդա միջավայրերի միջև:.
+> Լրացուցիչ տեղեկություններ. <https://docs.conda.io/projects/conda/en/stable/commands/compare.html>:.
 
-- Համեմատեք ընթացիկ գրացուցակի փաթեթները `file.yml` ֆայլի փաթեթների հետ.
+- Համեմատեք ընթացիկ գրացուցակի փաթեթները `file.yml` ֆայլի փաթեթների հետ.:
 
 `conda compare file.yml`
 
@@ -15,6 +15,6 @@
 
 `conda compare {{[-p|--prefix]}} {{path/to/myenv}} {{path/to/file.yml}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `conda compare {{[-h|--help]}}`

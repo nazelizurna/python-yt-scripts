@@ -1,32 +1,32 @@
 # ptpython
 
-> Ավելի լավ Python REPL:
-> Լրացուցիչ տեղեկություններ. <https://github.com/prompt-toolkit/ptpython>:
+> Ավելի լավ Python REPL:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/prompt-toolkit/ptpython>:.
 
-- Սկսեք REPL (ինտերակտիվ կեղև).
+- Սկսեք REPL (ինտերակտիվ կեղև).:
 
 `ptpython`
 
-- Կատարեք հատուկ Python ֆայլ.
+- Կատարեք հատուկ Python ֆայլ.:
 
 `ptpython {{path/to/file.py}}`
 
-- Կատարեք հատուկ Python ֆայլ և սկսեք REPL.
+- Կատարեք հատուկ Python ֆայլ և սկսեք REPL.:
 
 `ptpython {{[-i|--interactive]}} {{path/to/file.py}}`
 
-- Բացեք ընտրացանկը.
+- Բացեք ընտրացանկը.:
 
 `<F2>`
 
-- Բացեք պատմության էջը.
+- Բացեք պատմության էջը.:
 
 `<F3>`
 
-- Միացնել մածուկի ռեժիմը.
+- Միացնել մածուկի ռեժիմը.:
 
 `<F6>`
 
-- Դուրս գալ.
+- Դուրս գալ.:
 
 `<Ctrl d>`

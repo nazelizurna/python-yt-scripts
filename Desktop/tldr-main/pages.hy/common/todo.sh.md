@@ -1,13 +1,13 @@
 # todo.sh
 
-> Պարզ և ընդարձակելի shell script՝ ձեր `todo.txt` ֆայլը կառավարելու համար:
-> Լրացուցիչ տեղեկություններ. <https://github.com/todotxt/todo.txt-cli>:
+> Պարզ և ընդարձակելի shell script՝ ձեր `todo.txt` ֆայլը կառավարելու համար:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/todotxt/todo.txt-cli>:.
 
-- Թվարկեք յուրաքանչյուր տարր.
+- Թվարկեք յուրաքանչյուր տարր.:
 
 `todo.sh ls`
 
-- Ավելացրեք նյութ նախագծի և համատեքստի պիտակներով.
+- Ավելացրեք նյութ նախագծի և համատեքստի պիտակներով.:
 
 `todo.sh add '{{description}} +{{project}} @{{context}}'`
 
@@ -15,7 +15,7 @@
 
 `todo.sh do {{item_no}}`
 
-- Հեռացնել տարրը.
+- Հեռացնել տարրը.:
 
 `todo.sh rm {{item_no}}`
 
@@ -23,6 +23,6 @@
 
 `todo.sh pri {{item_no}} {{priority}}`
 
-- Փոխարինեք տարրը.
+- Փոխարինեք տարրը.:
 
 `todo.sh replace {{item_no}} '{{new_description}}'`

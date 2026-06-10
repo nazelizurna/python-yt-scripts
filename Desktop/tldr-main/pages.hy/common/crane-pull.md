@@ -1,9 +1,9 @@
 # կռունկի քաշում
 
-> Քաշեք հեռավոր պատկերները հղումով և պահեք դրանց բովանդակությունը տեղում:
-> Լրացուցիչ տեղեկություններ. <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_pull.md>:
+> Քաշեք հեռավոր պատկերները հղումով և պահեք դրանց բովանդակությունը տեղում:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_pull.md>:.
 
-- Քաշեք հեռավոր պատկերը.
+- Քաշեք հեռավոր պատկերը.:
 
 `crane pull {{image_name}} {{path/to/tarball}}`
 
@@ -11,7 +11,7 @@
 
 `crane pull {{image_name}} {{path/to/tarball}} --annotate-ref`
 
-- Պատկերի շերտերի քեշի ուղին.
+- Պատկերի շերտերի քեշի ուղին.:
 
 `crane pull {{image_name}} {{path/to/tarball}} {{[-c|--cache_path]}} {{path/to/cache}}`
 
@@ -19,6 +19,6 @@
 
 `crane pull {{image_name}} {{path/to/tarball}} {{-format}} {{format_name}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `crane pull {{[-h|--help]}}`

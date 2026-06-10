@@ -1,13 +1,13 @@
 # guetzli
 
-> JPEG պատկերի սեղմման կոմունալ:
-> Լրացուցիչ տեղեկություններ. <https://manned.org/guetzli>:
+> JPEG պատկերի սեղմման կոմունալ:.
+> Լրացուցիչ տեղեկություններ. <https://manned.org/guetzli>:.
 
-- Կոմպրես JPEG պատկեր.
+- Կոմպրես JPEG պատկեր.:
 
 `guetzli {{input.jpg}} {{output.jpg}}`
 
-- Ստեղծեք սեղմված JPEG PNG-ից.
+- Ստեղծեք սեղմված JPEG PNG-ից.:
 
 `guetzli {{input.png}} {{output.jpg}}`
 

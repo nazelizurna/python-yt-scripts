@@ -1,9 +1,9 @@
 # dvc ինիտ
 
-> Նախաձեռնեք նոր տեղական DVC պահոց:
-> Լրացուցիչ տեղեկություններ. <https://doc.dvc.org/command-reference/init>:
+> Նախաձեռնեք նոր տեղական DVC պահոց:.
+> Լրացուցիչ տեղեկություններ. <https://doc.dvc.org/command-reference/init>:.
 
-- Նախաձեռնեք նոր տեղական պահեստ.
+- Նախաձեռնեք նոր տեղական պահեստ.:
 
 `dvc init`
 
@@ -11,6 +11,6 @@
 
 `dvc init --no-scm`
 
-- Նախաձեռնեք DVC-ն ենթագրքում.
+- Նախաձեռնեք DVC-ն ենթագրքում.:
 
 `cd {{path/to/subdirectory}} && dvc init --sudir`

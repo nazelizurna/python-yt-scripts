@@ -1,8 +1,8 @@
 # inkview
 
-> Inkscape գրաֆիկական SVG նախադիտիչ:
-> Գործում է նաև որպես սլայդերի ցուցադրման դիտիչ:
-> Լրացուցիչ տեղեկություններ. <https://wiki.inkscape.org/wiki/index.php/Inkview>:
+> Inkscape գրաֆիկական SVG նախադիտիչ:.
+> Գործում է նաև որպես սլայդերի ցուցադրման դիտիչ:.
+> Լրացուցիչ տեղեկություններ. <https://wiki.inkscape.org/wiki/index.php/Inkview>:.
 
 - Նախադիտեք SVG:
 

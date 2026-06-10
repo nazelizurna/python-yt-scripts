@@ -1,9 +1,9 @@
 # wp
 
-> WordPress-ի օրինակները կառավարելու պաշտոնական ինտերֆեյսը:
-> Լրացուցիչ տեղեկություններ. <https://developer.wordpress.org/cli/commands/>:
+> WordPress-ի օրինակները կառավարելու պաշտոնական ինտերֆեյսը:.
+> Լրացուցիչ տեղեկություններ. <https://developer.wordpress.org/cli/commands/>:.
 
-- Տպել տեղեկատվություն օպերացիոն համակարգի, shell-ի, PHP-ի և WP-CLI (`wp`) տեղադրման մասին.
+- Տպել տեղեկատվություն օպերացիոն համակարգի, shell-ի, PHP-ի և WP-CLI (`wp`) տեղադրման մասին.:
 
 `wp --info`
 
@@ -11,7 +11,7 @@
 
 `wp cli update`
 
-- Ներբեռնեք WordPress-ի թարմ տեղադրումը ընթացիկ գրացուցակում, կամայականորեն նշելով տեղայնությունը.
+- Ներբեռնեք WordPress-ի թարմ տեղադրումը ընթացիկ գրացուցակում, կամայականորեն նշելով տեղայնությունը.:
 
 `wp core download --locale={{locale}}`
 
@@ -19,14 +19,14 @@
 
 `wp config create --dbname={{dbname}} --dbuser={{dbuser}} --dbpass={{dbpass}}`
 
-- Տեղադրեք և ակտիվացրեք WordPress հավելվածը.
+- Տեղադրեք և ակտիվացրեք WordPress հավելվածը.:
 
 `wp plugin install {{plugin}} --activate`
 
-- Փոխարինեք տվյալների բազայում տողի բոլոր օրինակները.
+- Փոխարինեք տվյալների բազայում տողի բոլոր օրինակները.:
 
 `wp search-replace {{old_string}} {{new_string}}`
 
-- Ներմուծեք WordPress Extended RSS (WXR) ֆայլի բովանդակությունը.
+- Ներմուծեք WordPress Extended RSS (WXR) ֆայլի բովանդակությունը.:
 
 `wp import {{path/to/file.xml}}`

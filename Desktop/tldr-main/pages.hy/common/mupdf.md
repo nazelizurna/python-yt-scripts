@@ -1,9 +1,9 @@
 # mupdf
 
-> Թեթև PDF, XPS և էլեկտրոնային գրքերի դիտիչ:
-> Լրացուցիչ տեղեկություններ. <https://mupdf.readthedocs.io/en/latest/tools/mupdf-gl.html>:
+> Թեթև PDF, XPS և էլեկտրոնային գրքերի դիտիչ:.
+> Լրացուցիչ տեղեկություններ. <https://mupdf.readthedocs.io/en/latest/tools/mupdf-gl.html>:.
 
-- Բացեք PDF-ը առաջին էջում.
+- Բացեք PDF-ը առաջին էջում.:
 
 `mupdf {{path/to/file}}`
 
@@ -11,7 +11,7 @@
 
 `mupdf {{path/to/file}} {{3}}`
 
-- Բացեք գաղտնաբառով ապահովված PDF.
+- Բացեք գաղտնաբառով ապահովված PDF.:
 
 `mupdf -p {{password}} {{path/to/file}}`
 
@@ -19,7 +19,7 @@
 
 `mupdf -r {{72}} {{path/to/file}}`
 
-- Բացեք PDF շրջված գույնով.
+- Բացեք PDF շրջված գույնով.:
 
 `mupdf -I {{path/to/file}}`
 

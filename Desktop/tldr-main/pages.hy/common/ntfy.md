@@ -1,13 +1,13 @@
 #ntfy
 
-> Ուղարկեք և ստացեք HTTP POST ծանուցումներ:
-> Լրացուցիչ տեղեկություններ. <https://github.com/binwiederhier/ntfy>:
+> Ուղարկեք և ստացեք HTTP POST ծանուցումներ:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/binwiederhier/ntfy>:.
 
-- Ուղարկեք հաղորդագրություն `security` թեմային.
+- Ուղարկեք հաղորդագրություն `security` թեմային.:
 
 `ntfy pub security "{{Front door has been opened.}}"`
 
-- Ուղարկեք վերնագրով, առաջնահերթությամբ և պիտակներով.
+- Ուղարկեք վերնագրով, առաջնահերթությամբ և պիտակներով.:
 
 `ntfy publish --title="{{Someone bought your item}}" --priority={{high}} --tags={{duck}} {{ebay}} "{{Someone just bought your item: Platypus Sculpture}}"`
 
@@ -15,14 +15,14 @@
 
 `ntfy pub --at=8:30am {{delayed_topic}} "{{Time for school, sleepyhead...}}"`
 
-- Գործարկել վեբ-կեռիկը.
+- Գործարկել վեբ-կեռիկը.:
 
 `ntfy trigger {{my_webhook}}`
 
-- Բաժանորդագրվեք թեմային (`<Ctrl c>` լսելը դադարեցնելու համար).
+- Բաժանորդագրվեք թեմային (`<Ctrl c>` լսելը դադարեցնելու համար).:
 
 `ntfy sub {{home_automation}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `ntfy --help`

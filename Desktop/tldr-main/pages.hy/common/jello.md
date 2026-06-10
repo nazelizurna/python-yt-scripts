@@ -1,13 +1,13 @@
 #ժելո
 
-> JSON պրոցեսոր՝ օգտագործելով Python շարահյուսությունը:
-> Լրացուցիչ տեղեկություններ. <https://github.com/kellyjonbrazil/jello#usage>:
+> JSON պրոցեսոր՝ օգտագործելով Python շարահյուսությունը:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/kellyjonbrazil/jello#usage>:.
 
 - Գեղեցիկ տպագիր JSON կամ JSON-Lines տվյալներ `stdin`-ից մինչև `stdout`:
 
 `cat {{file.json}} | jello`
 
-- Արտադրեք JSON կամ JSON Lines տվյալների սխեման `stdin`-ից մինչև `stdout` (օգտակար grep-ի համար).
+- Արտադրեք JSON կամ JSON Lines տվյալների սխեման `stdin`-ից մինչև `stdout` (օգտակար grep-ի համար).:
 
 `cat {{file.json}} | jello -s`
 
@@ -27,6 +27,6 @@
 
 `cat {{file.json}} | jello '{{{"key1": _.key_name1, "key2": _.key_name2, ...}}}'`
 
-- Տրված բանալիի արժեքը լարեք (և անջատեք JSON ելքը).
+- Տրված բանալիի արժեքը լարեք (և անջատեք JSON ելքը).:
 
 `cat {{file.json}} | jello -r '"{{some text}}: " + _.{{key_name}}'`

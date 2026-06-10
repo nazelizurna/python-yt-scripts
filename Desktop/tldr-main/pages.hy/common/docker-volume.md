@@ -1,13 +1,13 @@
 # դոկերի ծավալ
 
-> Կառավարեք Docker ծավալները:
-> Լրացուցիչ տեղեկություններ. <https://docs.docker.com/reference/cli/docker/volume/>:
+> Կառավարեք Docker ծավալները:.
+> Լրացուցիչ տեղեկություններ. <https://docs.docker.com/reference/cli/docker/volume/>:.
 
-- Ստեղծեք հատոր.
+- Ստեղծեք հատոր.:
 
 `docker volume create {{volume_name}}`
 
-- Ստեղծեք հատոր հատուկ պիտակով.
+- Ստեղծեք հատոր հատուկ պիտակով.:
 
 `docker volume create --label {{label}} {{volume_name}}`
 
@@ -15,22 +15,22 @@
 
 `docker volume create {{[-o|--opt]}} {{type}}={{tmpfs}} {{[-o|--opt]}} {{device}}={{tmpfs}} {{[-o|--opt]}} {{o}}={{size=100m,uid=1000}} {{volume_name}}`
 
-- Թվարկեք բոլոր հատորները.
+- Թվարկեք բոլոր հատորները.:
 
 `docker volume ls`
 
-- Հեռացնել ծավալը՝
+- Հեռացնել ծավալը՝:
 
 `docker volume rm {{volume_name}}`
 
-- Ցուցադրել տեղեկատվություն ծավալի մասին.
+- Ցուցադրել տեղեկատվություն ծավալի մասին.:
 
 `docker volume inspect {{volume_name}}`
 
-- Հեռացրեք բոլոր չօգտագործված տեղական ծավալները.
+- Հեռացրեք բոլոր չօգտագործված տեղական ծավալները.:
 
 `docker volume prune`
 
-- Ցուցադրել օգնություն ենթահրամանի համար.
+- Ցուցադրել օգնություն ենթահրամանի համար.:
 
 `docker volume {{subcommand}} --help`

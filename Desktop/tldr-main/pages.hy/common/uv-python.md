@@ -1,28 +1,28 @@
 # ուլտրամանուշակագույն պիթոն
 
-> Կառավարեք Python-ի տարբերակները և տեղադրումները:
-> Լրացուցիչ տեղեկություններ. <https://docs.astral.sh/uv/reference/cli/#uv-python>:
+> Կառավարեք Python-ի տարբերակները և տեղադրումները:.
+> Լրացուցիչ տեղեկություններ. <https://docs.astral.sh/uv/reference/cli/#uv-python>:.
 
-- Թվարկեք Python-ի բոլոր հասանելի տեղադրումները.
+- Թվարկեք Python-ի բոլոր հասանելի տեղադրումները.:
 
 `uv python list`
 
-- Տեղադրեք Python տարբերակը.
+- Տեղադրեք Python տարբերակը.:
 
 `uv python install {{version}}`
 
-- Տեղահանել Python տարբերակը.
+- Տեղահանել Python տարբերակը.:
 
 `uv python uninstall {{version}}`
 
-- Փնտրեք Python տեղադրում.
+- Փնտրեք Python տեղադրում.:
 
 `uv python find {{version}}`
 
-- Ամրացրեք ընթացիկ նախագիծը՝ Python-ի հատուկ տարբերակ օգտագործելու համար.
+- Ամրացրեք ընթացիկ նախագիծը՝ Python-ի հատուկ տարբերակ օգտագործելու համար.:
 
 `uv python pin {{version}}`
 
-- Ցույց տալ `uv` Python-ի տեղադրման գրացուցակը.
+- Ցույց տալ `uv` Python-ի տեղադրման գրացուցակը.:
 
 `uv python dir`

@@ -1,13 +1,13 @@
 # VBoxManage modifyvm
 
-> Փոխեք կարգավորումները դադարեցված վիրտուալ մեքենայի համար:
-> Լրացուցիչ տեղեկություններ. <https://www.virtualbox.org/manual/ch08.html#vboxmanage-modifyvm>:
+> Փոխեք կարգավորումները դադարեցված վիրտուալ մեքենայի համար:.
+> Լրացուցիչ տեղեկություններ. <https://www.virtualbox.org/manual/ch08.html#vboxmanage-modifyvm>:.
 
-- Վերանվանել VM-ը.
+- Վերանվանել VM-ը.:
 
 `VBoxManage modifyvm {{uuid|vm_name}} --name {{new_name}}`
 
-- Կարգավորել հիշողությունը և պրոցեսորը.
+- Կարգավորել հիշողությունը և պրոցեսորը.:
 
 `VBoxManage modifyvm {{uuid|vm_name}} --memory {{2048}} --cpus {{2}}`
 
@@ -15,6 +15,6 @@
 
 `VBoxManage modifyvm {{uuid|vm_name}} --vrde on`
 
-- Միացնել նստաշրջանի ձայնագրումը.
+- Միացնել նստաշրջանի ձայնագրումը.:
 
 `VBoxManage modifyvm {{uuid|vm_name}} --recording on`

@@ -1,7 +1,7 @@
 # նվերopnm
 
-> Փոխակերպեք GIF ֆայլը PNM պատկերի:
-> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/giftopnm.html>:
+> Փոխակերպեք GIF ֆայլը PNM պատկերի:.
+> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/giftopnm.html>:.
 
 - Փոխակերպեք GIF պատկերը Netpbm պատկերի պիքսել-առ-պիքսելի:
 

@@ -1,13 +1,13 @@
 # openclaw թարմացում
 
-> Թարմացրեք OpenClaw-ը վերջին տարբերակին:
-> Լրացուցիչ տեղեկություններ. <https://docs.openclaw.ai/cli/update>:
+> Թարմացրեք OpenClaw-ը վերջին տարբերակին:.
+> Լրացուցիչ տեղեկություններ. <https://docs.openclaw.ai/cli/update>:.
 
-- Թարմացրեք վերջին տարբերակին.
+- Թարմացրեք վերջին տարբերակին.:
 
 `openclaw update`
 
-- Անցեք որոշակի թողարկման ալիքի.
+- Անցեք որոշակի թողարկման ալիքի.:
 
 `openclaw update --channel {{stable|beta|dev}}`
 
@@ -15,6 +15,6 @@
 
 `openclaw update {{[-v|--version]}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `openclaw update {{[-h|--help]}}`

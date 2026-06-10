@@ -1,20 +1,20 @@
 # բաց կոդով նիստ
 
-> Կառավարեք OpenCode նիստերը:
-> Լրացուցիչ տեղեկություններ. <https://opencode.ai/docs/cli#session>:
+> Կառավարեք OpenCode նիստերը:.
+> Լրացուցիչ տեղեկություններ. <https://opencode.ai/docs/cli#session>:.
 
-- Նիստերի ցուցակ.
+- Նիստերի ցուցակ.:
 
 `opencode session list`
 
-- Թվարկեք վերջին N նիստերը հատուկ ձևաչափով.
+- Թվարկեք վերջին N նիստերը հատուկ ձևաչափով.:
 
 `opencode session list {{[-n|--max-count]}} {{10}} --format {{table|json}}`
 
-- Ջնջել կոնկրետ նստաշրջան.
+- Ջնջել կոնկրետ նստաշրջան.:
 
 `opencode session delete {{session_id}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `opencode session {{[-h|--help]}}`

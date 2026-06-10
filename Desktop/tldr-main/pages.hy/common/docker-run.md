@@ -1,7 +1,7 @@
 # docker run
 
-> Այս հրամանը `docker container run`-ի կեղծանունն է:
+> Այս հրամանը `docker container run`-ի կեղծանունն է:.
 
-- Դիտեք փաստաթղթերը բնօրինակ հրամանի համար.
+- Դիտեք փաստաթղթերը բնօրինակ հրամանի համար.:
 
 `tldr docker container run`

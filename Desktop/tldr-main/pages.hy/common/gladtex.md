@@ -1,18 +1,18 @@
 #գլադտեքս
 
-> HTML ֆայլերի LaTeX բանաձևի նախապրոցեսոր:
-> Այն փոխակերպում է LaTeX բանաձևերը պատկերների:
-> Լրացուցիչ տեղեկություններ. <https://manned.org/gladtex>:
+> HTML ֆայլերի LaTeX բանաձևի նախապրոցեսոր:.
+> Այն փոխակերպում է LaTeX բանաձևերը պատկերների:.
+> Լրացուցիչ տեղեկություններ. <https://manned.org/gladtex>:.
 
 - Փոխարկել HTML:
 
 `gladtex {{path/to/input.htex}}`
 
-- Փոխարկված ֆայլը պահեք որոշակի [o] ելքային ֆայլում՝
+- Փոխարկված ֆայլը պահեք որոշակի [o] ելքային ֆայլում՝:
 
 `gladtex {{path/to/input.htex}} -o {{path/to/output.html}}`
 
-- Պահպանեք ստեղծված պատկերները որոշակի [d] գրացուցակում.
+- Պահպանեք ստեղծված պատկերները որոշակի [d] գրացուցակում.:
 
 `gladtex {{path/to/input.htex}} -d {{path/to/image_output_directory}}`
 
@@ -20,11 +20,11 @@
 
 `gladtex {{path/to/input.htex}} -r {{resolution}}`
 
-- [k]պահեք LaTeX ֆայլերը փոխարկումից հետո.
+- [k]պահեք LaTeX ֆայլերը փոխարկումից հետո.:
 
 `gladtex {{path/to/input.htex}} -k`
 
-- Սահմանեք պատկերների [b] ֆոն և [f] նախապատկերի գույնը.
+- Սահմանեք պատկերների [b] ֆոն և [f] նախապատկերի գույնը.:
 
 `gladtex {{path/to/input.htex}} -b {{background_color}} -f {{foreground_color}}`
 

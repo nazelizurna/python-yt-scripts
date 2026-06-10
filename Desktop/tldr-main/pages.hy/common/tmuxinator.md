@@ -1,24 +1,24 @@
 # tmuxinator
 
-> Ստեղծեք և կառավարեք tmux նիստերը հեշտությամբ:
-> Լրացուցիչ տեղեկություններ. <https://manned.org/tmuxinator>:
+> Ստեղծեք և կառավարեք tmux նիստերը հեշտությամբ:.
+> Լրացուցիչ տեղեկություններ. <https://manned.org/tmuxinator>:.
 
-- Ստեղծեք նոր նախագիծ.
+- Ստեղծեք նոր նախագիծ.:
 
 `tmuxinator new {{project}}`
 
-- Խմբագրել նախագիծը.
+- Խմբագրել նախագիծը.:
 
 `tmuxinator edit {{project}}`
 
-- Ծրագրերի ցուցակ.
+- Ծրագրերի ցուցակ.:
 
 `tmuxinator list`
 
-- Սկսեք tmux նիստ՝ հիմնված նախագծի վրա.
+- Սկսեք tmux նիստ՝ հիմնված նախագծի վրա.:
 
 `tmuxinator start {{project}}`
 
-- Դադարեցրեք նախագծի tmux նիստը.
+- Դադարեցրեք նախագծի tmux նիստը.:
 
 `tmuxinator stop {{project}}`

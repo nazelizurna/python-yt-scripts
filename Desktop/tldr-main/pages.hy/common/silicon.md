@@ -1,10 +1,10 @@
 #սիլիկոն
 
-> Ստեղծեք սկզբնական կոդի պատկեր:
-> Տես նաև՝ `freeze`:
-> Լրացուցիչ տեղեկություններ. <https://github.com/Aloxaf/silicon#examples>:
+> Ստեղծեք սկզբնական կոդի պատկեր:.
+> Տես նաև՝ `freeze`:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/Aloxaf/silicon#examples>:.
 
-- Ստեղծեք պատկեր որոշակի աղբյուրի ֆայլից.
+- Ստեղծեք պատկեր որոշակի աղբյուրի ֆայլից.:
 
 `silicon {{path/to/source_file}} {{[-o|--output]}} {{path/to/output_image}}`
 

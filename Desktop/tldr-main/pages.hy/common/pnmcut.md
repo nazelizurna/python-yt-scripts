@@ -1,8 +1,8 @@
 # pnmcut
 
-> Այս հրամանը փոխարինվել է `pamcut`-ով:
-> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/pnmcut.html>:
+> Այս հրամանը փոխարինվել է `pamcut`-ով:.
+> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/pnmcut.html>:.
 
-- Դիտեք ընթացիկ հրամանի փաստաթղթերը.
+- Դիտեք ընթացիկ հրամանի փաստաթղթերը.:
 
 `tldr pamcut`

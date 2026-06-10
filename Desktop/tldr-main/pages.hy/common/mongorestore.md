@@ -1,9 +1,9 @@
 # mongorestore
 
-> Կոմունալ հավաքածու կամ տվյալների բազա երկուական աղբավայրից MongoDB օրինակ ներմուծելու համար:
-> Լրացուցիչ տեղեկություններ. <https://www.mongodb.com/docs/database-tools/mongorestore/>:
+> Կոմունալ հավաքածու կամ տվյալների բազա երկուական աղբավայրից MongoDB օրինակ ներմուծելու համար:.
+> Լրացուցիչ տեղեկություններ. <https://www.mongodb.com/docs/database-tools/mongorestore/>:.
 
-- Ներմուծեք BSON տվյալների աղբավայրը գրացուցակից MongoDB տվյալների բազա.
+- Ներմուծեք BSON տվյալների աղբավայրը գրացուցակից MongoDB տվյալների բազա.:
 
 `mongorestore --db {{database_name}} {{path/to/directory}}`
 
@@ -11,7 +11,7 @@
 
 `mongorestore --host {{database_host:port}} --db {{database_name}} --username {{username}} {{path/to/directory}} --password`
 
-- Ներմուծեք հավաքածու BSON ֆայլից MongoDB տվյալների բազա.
+- Ներմուծեք հավաքածու BSON ֆայլից MongoDB տվյալների բազա.:
 
 `mongorestore --db {{database_name}} {{path/to/file}}`
 

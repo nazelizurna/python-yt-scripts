@@ -1,9 +1,9 @@
 # minikube սկիզբ
 
-> Սկսեք `minikube`-ը տարբեր կոնֆիգուրացիաներով:
-> Լրացուցիչ տեղեկություններ. <https://minikube.sigs.k8s.io/docs/commands/start/>:
+> Սկսեք `minikube`-ը տարբեր կոնֆիգուրացիաներով:.
+> Լրացուցիչ տեղեկություններ. <https://minikube.sigs.k8s.io/docs/commands/start/>:.
 
-- Սկսեք `minikube`-ը Kubernetes-ի կոնկրետ տարբերակով.
+- Սկսեք `minikube`-ը Kubernetes-ի կոնկրետ տարբերակով.:
 
 `minikube start --kubernetes-version {{v1.24.0}}`
 
@@ -15,10 +15,10 @@
 
 `minikube start --driver {{virtualbox}}`
 
-- Սկսեք `minikube`-ը հետին պլանում (անգլուխ ռեժիմ).
+- Սկսեք `minikube`-ը հետին պլանում (անգլուխ ռեժիմ).:
 
 `minikube start --background`
 
-- Սկսեք `minikube`-ը հատուկ հավելումներով (օրինակ՝ չափման սերվերով).
+- Սկսեք `minikube`-ը հատուկ հավելումներով (օրինակ՝ չափման սերվերով).:
 
 `minikube start --addons {{metrics-server}}`

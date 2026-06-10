@@ -1,13 +1,13 @@
 # picotool
 
-> Կառավարեք Raspberry Pi Pico-ի տախտակները:
-> Լրացուցիչ տեղեկություններ. <https://github.com/raspberrypi/picotool#overview>:
+> Կառավարեք Raspberry Pi Pico-ի տախտակները:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/raspberrypi/picotool#overview>:.
 
-- Ցուցադրել տեղեկատվություն ներկայումս բեռնված ծրագրի մասին Pico-ում.
+- Ցուցադրել տեղեկատվություն ներկայումս բեռնված ծրագրի մասին Pico-ում.:
 
 `picotool info`
 
-- Բեռնել երկուականը Pico-ի վրա.
+- Բեռնել երկուականը Pico-ի վրա.:
 
 `picotool load {{path/to/binary}}`
 
@@ -19,11 +19,11 @@
 
 `picotool reboot`
 
-- Թվարկեք բոլոր հայտնի գրանցամատյանները.
+- Թվարկեք բոլոր հայտնի գրանցամատյանները.:
 
 `picotool otp list`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `picotool help`
 

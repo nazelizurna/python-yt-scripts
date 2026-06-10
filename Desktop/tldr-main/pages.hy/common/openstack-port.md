@@ -1,17 +1,17 @@
 # openstack պորտ
 
-> Կառավարեք OpenStack ցանցային նավահանգիստները (վիրտուալ ցանցային միջերեսներ):
-> Լրացուցիչ տեղեկություններ. <https://docs.openstack.org/python-openstackclient/latest/cli/command-objects/port.html>:
+> Կառավարեք OpenStack ցանցային նավահանգիստները (վիրտուալ ցանցային միջերեսներ):.
+> Լրացուցիչ տեղեկություններ. <https://docs.openstack.org/python-openstackclient/latest/cli/command-objects/port.html>:.
 
-- Նշեք բոլոր նավահանգիստները.
+- Նշեք բոլոր նավահանգիստները.:
 
 `openstack port list`
 
-- Ցույց տալ մանրամասն տեղեկություններ կոնկրետ նավահանգստի մասին.
+- Ցույց տալ մանրամասն տեղեկություններ կոնկրետ նավահանգստի մասին.:
 
 `openstack port show {{port_id_or_name}}`
 
-- Ստեղծեք նավահանգիստ որոշակի ցանցում.
+- Ստեղծեք նավահանգիստ որոշակի ցանցում.:
 
 `openstack port create --network {{network_id_or_name}} {{port_name}}`
 
@@ -19,6 +19,6 @@
 
 `openstack port create --network {{network_id}} --fixed-ip subnet={{subnet_id}},ip-address=192.168.1.50 {{port_name}}`
 
-- Ջնջել նավահանգիստը.
+- Ջնջել նավահանգիստը.:
 
 `openstack port delete {{port_id_or_name}}`

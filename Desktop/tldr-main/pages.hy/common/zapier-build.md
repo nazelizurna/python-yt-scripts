@@ -1,9 +1,9 @@
 # zapier build
 
-> Կառուցեք Zapier ինտեգրման համար մղվող `zip`:
-> Լրացուցիչ տեղեկություններ. <https://platform.zapier.com/reference/cli#build>:
+> Կառուցեք Zapier ինտեգրման համար մղվող `zip`:.
+> Լրացուցիչ տեղեկություններ. <https://platform.zapier.com/reference/cli#build>:.
 
-- Ստեղծեք կառուցվածք.
+- Ստեղծեք կառուցվածք.:
 
 `zapier build`
 
@@ -11,6 +11,6 @@
 
 `zapier build --disable-dependency-detection`
 
-- Ցույց տալ վրիպազերծման լրացուցիչ արդյունքը.
+- Ցույց տալ վրիպազերծման լրացուցիչ արդյունքը.:
 
 `zapier build {{[-d|--debug]}}`

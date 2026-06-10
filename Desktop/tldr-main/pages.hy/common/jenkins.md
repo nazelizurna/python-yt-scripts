@@ -1,13 +1,13 @@
 # jenkins-cli
 
-> Բաց կոդով ավտոմատացման սերվեր, որը հեշտացնում է ծրագրային ապահովման մշակման կյանքի ցիկլի ավտոմատացումը:
-> Լրացուցիչ տեղեկություններ. <https://www.jenkins.io/doc/>:
+> Բաց կոդով ավտոմատացման սերվեր, որը հեշտացնում է ծրագրային ապահովման մշակման կյանքի ցիկլի ավտոմատացումը:.
+> Լրացուցիչ տեղեկություններ. <https://www.jenkins.io/doc/>:.
 
-- Միացեք jenkins CLI-ին.
+- Միացեք jenkins CLI-ին.:
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} -auth {{username}}:{{api_token}}`
 
-- Վերագործարկեք jenkins-ը.
+- Վերագործարկեք jenkins-ը.:
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} restart`
 
@@ -15,7 +15,7 @@
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} shutdown`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `java -jar jenkins-cli.jar -s {{jenkins_server_url}} help`
 

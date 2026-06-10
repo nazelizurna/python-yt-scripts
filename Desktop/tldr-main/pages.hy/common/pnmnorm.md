@@ -1,10 +1,10 @@
 # pnmnorm
 
-> Նորմալացրեք հակադրությունը PNM պատկերում:
-> Տես նաև՝ `pnmhisteq`:
-> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/pnmnorm.html>:
+> Նորմալացրեք հակադրությունը PNM պատկերում:.
+> Տես նաև՝ `pnmhisteq`:.
+> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/pnmnorm.html>:.
 
-- Ստիպեք ամենապայծառ պիքսելներին լինել սպիտակ, ամենամուգ պիքսելներին՝ սև և գծային կերպով տարածեք դրանց միջև եղածները.
+- Ստիպեք ամենապայծառ պիքսելներին լինել սպիտակ, ամենամուգ պիքսելներին՝ սև և գծային կերպով տարածեք դրանց միջև եղածները.:
 
 `pnmnorm {{path/to/image.pnm}} > {{path/to/output.pnm}}`
 
@@ -12,10 +12,10 @@
 
 `pnmnorm {{[-midv|-midvalue]}} {{n}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
 
-- Պահպանեք պիքսելների երանգը, փոփոխեք միայն պայծառությունը.
+- Պահպանեք պիքսելների երանգը, փոփոխեք միայն պայծառությունը.:
 
 `pnmnorm {{[-k|-keephues]}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`
 
-- Նշեք պիքսելի պայծառությունը հաշվարկելու մեթոդ.
+- Նշեք պիքսելի պայծառությունը հաշվարկելու մեթոդ.:
 
 `pnmnorm -{{luminosity|colorvalue|saturation}} {{path/to/image.pnm}} > {{path/to/output.pnm}}`

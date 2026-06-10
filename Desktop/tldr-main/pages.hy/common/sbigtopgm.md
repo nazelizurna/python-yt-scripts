@@ -1,7 +1,7 @@
 # sbigtopgm
 
-> Փոխարկեք SBIG CCDOPS ֆայլը PGM-ի:
-> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/sbigtopgm.html>:
+> Փոխարկեք SBIG CCDOPS ֆայլը PGM-ի:.
+> Լրացուցիչ տեղեկություններ. <https://netpbm.sourceforge.net/doc/sbigtopgm.html>:.
 
 - Փոխարկել SBIG CCDOPS պատկերի ֆայլը PGM:
 

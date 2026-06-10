@@ -1,26 +1,26 @@
 # ghcup
 
-> Haskell Toolchain տեղադրող:
-> Տեղադրեք, կառավարեք և թարմացրեք Haskell գործիքների շղթաները:
-> Լրացուցիչ տեղեկություններ. <https://gitlab.haskell.org/haskell/ghcup-hs>:
+> Haskell Toolchain տեղադրող:.
+> Տեղադրեք, կառավարեք և թարմացրեք Haskell գործիքների շղթաները:.
+> Լրացուցիչ տեղեկություններ. <https://gitlab.haskell.org/haskell/ghcup-hs>:.
 
-- Սկսեք ինտերակտիվ TUI.
+- Սկսեք ինտերակտիվ TUI.:
 
 `ghcup tui`
 
-- Ցուցակեք հասանելի GHC/Cabal տարբերակները.
+- Ցուցակեք հասանելի GHC/Cabal տարբերակները.:
 
 `ghcup list`
 
-- Տեղադրեք առաջարկվող GHC տարբերակը.
+- Տեղադրեք առաջարկվող GHC տարբերակը.:
 
 `ghcup install ghc`
 
-- Տեղադրեք հատուկ GHC տարբերակ.
+- Տեղադրեք հատուկ GHC տարբերակ.:
 
 `ghcup install ghc {{version}}`
 
-- Ակտիվացրեք հատուկ GHC տարբերակ.
+- Ակտիվացրեք հատուկ GHC տարբերակ.:
 
 `ghcup set ghc {{version}}`
 
@@ -28,6 +28,6 @@
 
 `ghcup install cabal`
 
-- Թարմացրեք `ghcup` ինքնը՝
+- Թարմացրեք `ghcup` ինքնը՝:
 
 `ghcup upgrade`

@@ -1,10 +1,10 @@
 # Set-NodeVersion
 
-> Սահմանեք Node.js-ի կանխադրված տարբերակը `ps-nvm`-ի համար:
-> `ps-nvm`-ի մի մասը և կարող է գործարկվել միայն PowerShell-ով:
-> Լրացուցիչ տեղեկություններ. <https://github.com/aaronpowell/ps-nvm>:
+> Սահմանեք Node.js-ի կանխադրված տարբերակը `ps-nvm`-ի համար:.
+> `ps-nvm`-ի մի մասը և կարող է գործարկվել միայն PowerShell-ով:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/aaronpowell/ps-nvm>:.
 
-- Օգտագործեք Node.js-ի հատուկ տարբերակը ընթացիկ PowerShell նիստում.
+- Օգտագործեք Node.js-ի հատուկ տարբերակը ընթացիկ PowerShell նիստում.:
 
 `Set-NodeVersion {{node_version}}`
 
@@ -12,10 +12,10 @@
 
 `Set-NodeVersion ^20`
 
-- Սահմանեք Node.js-ի լռելյայն տարբերակը ընթացիկ օգտագործողի համար (կիրառվում է միայն ապագա PowerShell նիստերի համար).
+- Սահմանեք Node.js-ի լռելյայն տարբերակը ընթացիկ օգտագործողի համար (կիրառվում է միայն ապագա PowerShell նիստերի համար).:
 
 `Set-NodeVersion {{node_version}} -Persist User`
 
-- Սահմանեք Node.js-ի լռելյայն տարբերակը բոլոր օգտատերերի համար (պետք է գործարկվի որպես Administrator/root և կիրառելի է միայն PowerShell-ի ապագա նիստերին).
+- Սահմանեք Node.js-ի լռելյայն տարբերակը բոլոր օգտատերերի համար (պետք է գործարկվի որպես Administrator/root և կիրառելի է միայն PowerShell-ի ապագա նիստերին).:
 
 `Set-NodeVersion {{node_version}} -Persist Machine`

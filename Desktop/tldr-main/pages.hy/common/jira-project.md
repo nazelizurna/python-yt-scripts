@@ -1,12 +1,12 @@
 # jira նախագիծ
 
-> Կառավարեք Jira նախագծերը:
-> Լրացուցիչ տեղեկություններ. <https://github.com/ankitpokhrel/jira-cli#other-commands>:
+> Կառավարեք Jira նախագծերը:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/ankitpokhrel/jira-cli#other-commands>:.
 
-- Թվարկեք բոլոր նախագծերը.
+- Թվարկեք բոլոր նախագծերը.:
 
 `jira project {{[ls|list]}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `jira project {{[-h|--help]}}`

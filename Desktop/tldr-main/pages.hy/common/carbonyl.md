@@ -1,21 +1,21 @@
 #կարբոնիլ
 
-> Դիտեք վեբ էջերը տերմինալի վրա՝ օգտագործելով Chromium backend-ը:
-> Տես նաև՝ `browsh`:
-> Լրացուցիչ տեղեկություններ. <https://github.com/fathyb/carbonyl>:
+> Դիտեք վեբ էջերը տերմինալի վրա՝ օգտագործելով Chromium backend-ը:.
+> Տես նաև՝ `browsh`:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/fathyb/carbonyl>:.
 
-- Բացեք `about:blank` էջը՝
+- Բացեք `about:blank` էջը՝:
 
 `carbonyl`
 
-- Բացեք վեբ էջ.
+- Բացեք վեբ էջ.:
 
 `carbonyl {{https://example.com}}`
 
-- Ելք կարբոնիլ.
+- Ելք կարբոնիլ.:
 
 `<Ctrl c>`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `carbonyl {{[-h|--help]}}`

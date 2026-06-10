@@ -1,9 +1,9 @@
 # ֆունկցիա
 
-> Սահմանել ֆունկցիա:
-> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/bash/manual/bash.html#Shell-Functions>:
+> Սահմանել ֆունկցիա:.
+> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/bash/manual/bash.html#Shell-Functions>:.
 
-- Սահմանեք գործառույթ նշված անունով.
+- Սահմանեք գործառույթ նշված անունով.:
 
 `function {{func_name}} { {{echo "Function contents here"}}; }`
 
@@ -11,10 +11,10 @@
 
 `func_name`
 
-- Սահմանեք ֆունկցիա առանց `function` հիմնաբառի.
+- Սահմանեք ֆունկցիա առանց `function` հիմնաբառի.:
 
 `{{func_name}}() { {{echo "Function contents here"}}; }`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `help function`

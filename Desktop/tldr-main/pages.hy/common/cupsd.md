@@ -1,13 +1,13 @@
 # բաժակ
 
-> Սերվերի դեյմոն CUPS տպագիր սերվերի համար:
-> Լրացուցիչ տեղեկություններ. <https://openprinting.github.io/cups/doc/man-cupsd.html>:
+> Սերվերի դեյմոն CUPS տպագիր սերվերի համար:.
+> Լրացուցիչ տեղեկություններ. <https://openprinting.github.io/cups/doc/man-cupsd.html>:.
 
 - Սկսեք `cupsd`-ը հետին պլանում, այսինքն: որպես դևոն:
 
 `cupsd`
 
-- Սկսեք `cupsd`-ը [f]առաջին պլանում՝
+- Սկսեք `cupsd`-ը [f]առաջին պլանում՝:
 
 `cupsd -f`
 
@@ -15,19 +15,19 @@
 
 `cupsd -l`
 
-- Սկսեք `cupsd`-ը՝ օգտագործելով նշված `cupsd.conf` [c] կազմաձևման ֆայլը՝
+- Սկսեք `cupsd`-ը՝ օգտագործելով նշված `cupsd.conf` [c] կազմաձևման ֆայլը՝:
 
 `cupsd -c {{path/to/cupsd.conf}}`
 
-- Սկսեք `cupsd`-ը՝ օգտագործելով նշված `cups-files.conf` կազմաձևման ֆայլը՝
+- Սկսեք `cupsd`-ը՝ օգտագործելով նշված `cups-files.conf` կազմաձևման ֆայլը՝:
 
 `cupsd -s {{path/to/cups-files.conf}}`
 
-- [t]ստուգեք `cupsd.conf` [c] կազմաձևման ֆայլը սխալների համար՝
+- [t]ստուգեք `cupsd.conf` [c] կազմաձևման ֆայլը սխալների համար՝:
 
 `cupsd -t -c {{path/to/cupsd.conf}}`
 
-- [t]ստուգեք `cups-files.conf` կազմաձևման ֆայլը սխալների համար՝
+- [t]ստուգեք `cups-files.conf` կազմաձևման ֆայլը սխալների համար՝:
 
 `cupsd -t -s {{path/to/cups-files.conf}}`
 

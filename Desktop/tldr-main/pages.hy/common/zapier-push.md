@@ -1,9 +1,9 @@
 # zapier հրում
 
-> Կառուցեք և վերբեռնեք Zapier ինտեգրում:
-> Լրացուցիչ տեղեկություններ. <https://platform.zapier.com/reference/cli#push>:
+> Կառուցեք և վերբեռնեք Zapier ինտեգրում:.
+> Լրացուցիչ տեղեկություններ. <https://platform.zapier.com/reference/cli#push>:.
 
-- Կատարեք ինտեգրում Zapier-ին.
+- Կատարեք ինտեգրում Zapier-ին.:
 
 `zapier push`
 
@@ -11,6 +11,6 @@
 
 `zapier push --disable-dependency-detection`
 
-- Ցույց տալ վրիպազերծման լրացուցիչ արդյունքը.
+- Ցույց տալ վրիպազերծման լրացուցիչ արդյունքը.:
 
 `zapier push {{[-d|--debug]}}`

@@ -1,14 +1,14 @@
 # zlib-flate
 
-> Raw zlib սեղմման և ապակոմպրեսիայի ծրագիր:
-> `qpdf`-ի մի մասը:
-> Լրացուցիչ տեղեկություններ. <https://manned.org/zlib-flate>:
+> Raw zlib սեղմման և ապակոմպրեսիայի ծրագիր:.
+> `qpdf`-ի մի մասը:.
+> Լրացուցիչ տեղեկություններ. <https://manned.org/zlib-flate>:.
 
-- Կոմպրես ֆայլ.
+- Կոմպրես ֆայլ.:
 
 `zlib-flate < {{path/to/input_file}} -compress > {{path/to/compressed.zlib}}`
 
-- Ապասեղմեք ֆայլը.
+- Ապասեղմեք ֆայլը.:
 
 `zlib-flate < {{path/to/compressed.zlib}} -uncompress > {{path/to/output_file}}`
 

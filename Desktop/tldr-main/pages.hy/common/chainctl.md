@@ -1,25 +1,25 @@
 # chainctl
 
-> Պաշտոնական CLI-ն Chainguard-ի համար:
-> Լրացուցիչ տեղեկություններ. <https://edu.chainguard.dev/chainguard/chainctl/chainctl-docs/chainctl/>:
+> Պաշտոնական CLI-ն Chainguard-ի համար:.
+> Լրացուցիչ տեղեկություններ. <https://edu.chainguard.dev/chainguard/chainctl/chainctl-docs/chainctl/>:.
 
-- Նույնականացում Chainguard հարթակում.
+- Նույնականացում Chainguard հարթակում.:
 
 `chainctl auth login`
 
-- Դուրս գալ Chainguard հարթակից.
+- Դուրս գալ Chainguard հարթակից.:
 
 `chainctl auth logout`
 
-- Թարմացրեք վերջին տարբերակին.
+- Թարմացրեք վերջին տարբերակին.:
 
 `chainctl update`
 
-- Թվարկեք ձեր հաշվին հասանելի պատկերները.
+- Թվարկեք ձեր հաշվին հասանելի պատկերները.:
 
 `chainctl images list`
 
-- Թվարկեք ձեր հաշվին հասանելի պատկերների պահոցները.
+- Թվարկեք ձեր հաշվին հասանելի պատկերների պահոցները.:
 
 `chainctl images repos list`
 

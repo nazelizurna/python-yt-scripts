@@ -1,17 +1,17 @@
 #հոսքային
 
-> Python-ում տվյալների վրա հիմնված ինտերակտիվ վեբ հավելվածներ ստեղծելու շրջանակ:
-> Լրացուցիչ տեղեկություններ. <https://docs.streamlit.io/develop/api-reference/cli>:
+> Python-ում տվյալների վրա հիմնված ինտերակտիվ վեբ հավելվածներ ստեղծելու շրջանակ:.
+> Լրացուցիչ տեղեկություններ. <https://docs.streamlit.io/develop/api-reference/cli>:.
 
-- Ստուգեք Streamlit-ի տեղադրումը.
+- Ստուգեք Streamlit-ի տեղադրումը.:
 
 `streamlit hello`
 
-- Գործարկել Streamlit հավելվածը.
+- Գործարկել Streamlit հավելվածը.:
 
 `streamlit run {{project_name}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `streamlit --help`
 

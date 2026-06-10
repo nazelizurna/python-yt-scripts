@@ -1,9 +1,9 @@
 # նավամատույց
 
-> Docker ռեգիստրների հետ փոխգործակցության գործիք, ներառյալ պահեստների ցուցակագրումը և թափոնը:
-> Լրացուցիչ տեղեկություններ. <https://github.com/MachiavelliII/dockdiver#instructions>:
+> Docker ռեգիստրների հետ փոխգործակցության գործիք, ներառյալ պահեստների ցուցակագրումը և թափոնը:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/MachiavelliII/dockdiver#instructions>:.
 
-- Թվարկեք բոլոր պահեստները Docker ռեգիստրում.
+- Թվարկեք բոլոր պահեստները Docker ռեգիստրում.:
 
 `dockdiver -url {{https://example.com}} -list`
 
@@ -11,7 +11,7 @@
 
 `dockdiver -url {{https://example.com}} -dump {{repository_name}}`
 
-- Թափել բոլոր պահեստները հիմնական իսկորոշմամբ.
+- Թափել բոլոր պահեստները հիմնական իսկորոշմամբ.:
 
 `dockdiver -url {{https://example.com}} -dump-all -username {{username}} -password {{password}}`
 
@@ -19,7 +19,7 @@
 
 `dockdiver -url {{https://example.com}} -dump {{repository_name}} -port {{port}} -rate {{requests_per_second}} -dir {{path/to/output_directory}}`
 
-- Թափել բոլոր պահեստարանները, որոնք ունեն կրող նշան՝ թույլտվության համար.
+- Թափել բոլոր պահեստարանները, որոնք ունեն կրող նշան՝ թույլտվության համար.:
 
 `dockdiver -url {{https://example.com}} -dump-all -bearer {{bearer_token}}`
 

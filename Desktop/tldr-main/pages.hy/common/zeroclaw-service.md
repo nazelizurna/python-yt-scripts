@@ -1,28 +1,28 @@
 # zeroclaw ծառայություն
 
-> Կառավարեք ZeroClaw ֆոնային ծառայությունը (գործարկված/համակարգված օգտվողի ծառայություն):
-> Լրացուցիչ տեղեկություններ. <https://github.com/zeroclaw-labs/zeroclaw#quick-start>:
+> Կառավարեք ZeroClaw ֆոնային ծառայությունը (գործարկված/համակարգված օգտվողի ծառայություն):.
+> Լրացուցիչ տեղեկություններ. <https://github.com/zeroclaw-labs/zeroclaw#quick-start>:.
 
-- Տեղադրեք daemon ծառայությունը.
+- Տեղադրեք daemon ծառայությունը.:
 
 `zeroclaw service install`
 
-- Սկսեք Daemon ծառայությունը.
+- Սկսեք Daemon ծառայությունը.:
 
 `zeroclaw service start`
 
-- Դադարեցրեք deemon ծառայությունը.
+- Դադարեցրեք deemon ծառայությունը.:
 
 `zeroclaw service stop`
 
-- Ստուգեք ծառայության կարգավիճակը.
+- Ստուգեք ծառայության կարգավիճակը.:
 
 `zeroclaw service status`
 
-- Տեղահանեք daemon ծառայությունը.
+- Տեղահանեք daemon ծառայությունը.:
 
 `zeroclaw service uninstall`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `zeroclaw service {{[-h|--help]}}`

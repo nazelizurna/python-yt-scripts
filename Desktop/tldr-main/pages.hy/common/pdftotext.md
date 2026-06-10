@@ -1,7 +1,7 @@
 # pdftotext
 
-> Փոխարկել PDF ֆայլերը պարզ տեքստի ձևաչափի:
-> Լրացուցիչ տեղեկություններ. <https://www.xpdfreader.com/pdftotext-man.html>:
+> Փոխարկել PDF ֆայլերը պարզ տեքստի ձևաչափի:.
+> Լրացուցիչ տեղեկություններ. <https://www.xpdfreader.com/pdftotext-man.html>:.
 
 - Փոխարկեք `filename.pdf`-ը պարզ տեքստի և տպեք այն `stdout`:
 
@@ -11,7 +11,7 @@
 
 `pdftotext {{filename.pdf}}`
 
-- Փոխարկեք `filename.pdf`-ը պարզ տեքստի և պահպանեք դասավորությունը.
+- Փոխարկեք `filename.pdf`-ը պարզ տեքստի և պահպանեք դասավորությունը.:
 
 `pdftotext -layout {{filename.pdf}}`
 

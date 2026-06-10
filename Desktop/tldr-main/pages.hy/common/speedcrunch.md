@@ -1,21 +1,21 @@
 # speedcrunch
 
-> Բարձր ճշգրտության գիտական հաշվիչ:
-> Լրացուցիչ տեղեկություններ. <https://heldercorreia.bitbucket.io/speedcrunch/userguide/index.html>:
+> Բարձր ճշգրտության գիտական հաշվիչ:.
+> Լրացուցիչ տեղեկություններ. <https://heldercorreia.bitbucket.io/speedcrunch/userguide/index.html>:.
 
 - Սկսեք SpeedCrunch:
 
 `speedcrunch`
 
-- Պատճենեք ամենավերջին հաշվարկի արդյունքը.
+- Պատճենեք ամենավերջին հաշվարկի արդյունքը.:
 
 `<Ctrl r>`
 
-- Բացեք բանաձևի գիրքը.
+- Բացեք բանաձևի գիրքը.:
 
 `<Ctrl 1>`
 
-- Մաքրել հաշվիչը վերջին հաշվարկներից.
+- Մաքրել հաշվիչը վերջին հաշվարկներից.:
 
 `<Ctrl n>`
 
@@ -23,14 +23,14 @@
 
 `<Ctrl p>`
 
-- Բեռնել speedcrunch նիստը.
+- Բեռնել speedcrunch նիստը.:
 
 `<Ctrl l>`
 
-- Պահպանեք speedcrunch նիստը.
+- Պահպանեք speedcrunch նիստը.:
 
 `<Ctrl s>`
 
-- Միացնել ստեղնաշարը.
+- Միացնել ստեղնաշարը.:
 
 `<Ctrl k>`

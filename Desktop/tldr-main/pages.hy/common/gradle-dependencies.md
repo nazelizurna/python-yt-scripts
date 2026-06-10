@@ -1,20 +1,20 @@
 # gradle կախվածություն
 
-> Ցուցադրել կախվածության ծառը Gradle նախագծի համար:
-> Լրացուցիչ տեղեկություններ. <https://docs.gradle.org/current/userguide/command_line_interface.html#listing_project_dependencies>:
+> Ցուցադրել կախվածության ծառը Gradle նախագծի համար:.
+> Լրացուցիչ տեղեկություններ. <https://docs.gradle.org/current/userguide/command_line_interface.html#listing_project_dependencies>:.
 
-- Ցուցադրել բոլոր կախվածությունները.
+- Ցուցադրել բոլոր կախվածությունները.:
 
 `gradle dependencies`
 
-- Ցուցադրել կախվածությունը որոշակի կազմաձևման համար.
+- Ցուցադրել կախվածությունը որոշակի կազմաձևման համար.:
 
 `gradle dependencies --configuration {{implementation}}`
 
-- Ցուցադրել կախվածությունը կոնկրետ ենթանախագծի համար.
+- Ցուցադրել կախվածությունը կոնկրետ ենթանախագծի համար.:
 
 `gradle :{{subproject}}:dependencies`
 
-- Ցուցադրել կախվածությունները և պահել ֆայլում.
+- Ցուցադրել կախվածությունները և պահել ֆայլում.:
 
 `gradle dependencies > {{path/to/dependencies.txt}}`

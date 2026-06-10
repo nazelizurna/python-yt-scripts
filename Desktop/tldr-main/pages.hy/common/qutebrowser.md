@@ -1,21 +1,21 @@
 # qutebrowser
 
-> Ստեղնաշարի վրա հիմնված, vim-ի նման զննարկիչ՝ հիմնված PyQt5-ի վրա:
-> Լրացուցիչ տեղեկություններ. <https://qutebrowser.org/doc/qutebrowser.1.html>:
+> Ստեղնաշարի վրա հիմնված, vim-ի նման զննարկիչ՝ հիմնված PyQt5-ի վրա:.
+> Լրացուցիչ տեղեկություններ. <https://qutebrowser.org/doc/qutebrowser.1.html>:.
 
-- Բացեք qutebrowser-ը նշված պահեստավորման գրացուցակով.
+- Բացեք qutebrowser-ը նշված պահեստավորման գրացուցակով.:
 
 `qutebrowser --basedir {{path/to/directory}}`
 
-- Բացեք qutebrowser-ի օրինակ՝ ժամանակավոր կարգավորումներով.
+- Բացեք qutebrowser-ի օրինակ՝ ժամանակավոր կարգավորումներով.:
 
 `qutebrowser --set {{content.geolocation}} {{true|false}}`
 
-- Վերականգնել qutebrowser օրինակի անվանված նիստը.
+- Վերականգնել qutebrowser օրինակի անվանված նիստը.:
 
 `qutebrowser --restore {{session_name}}`
 
-- Գործարկեք qutebrowser-ը՝ բացելով բոլոր URL-ները՝ օգտագործելով նշված մեթոդը.
+- Գործարկեք qutebrowser-ը՝ բացելով բոլոր URL-ները՝ օգտագործելով նշված մեթոդը.:
 
 `qutebrowser --target {{auto|tab|tab-bg|tab-silent|tab-bg-silent|window|private-window}}`
 

@@ -1,9 +1,9 @@
 #շերտ
 
-> Փոխազդեք Stripe հաշվի հետ:
-> Լրացուցիչ տեղեկություններ. <https://docs.stripe.com/stripe-cli>:
+> Փոխազդեք Stripe հաշվի հետ:.
+> Լրացուցիչ տեղեկություններ. <https://docs.stripe.com/stripe-cli>:.
 
-- Հետևեք հաշվի գործունեության տեղեկամատյաններին.
+- Հետևեք հաշվի գործունեության տեղեկամատյաններին.:
 
 `stripe logs tail`
 
@@ -11,14 +11,14 @@
 
 `stripe listen --events="{{charge.succeeded}}" --forward-to="{{localhost:3000/events}}"`
 
-- Ուղարկեք փորձնական webhook իրադարձություն.
+- Ուղարկեք փորձնական webhook իրադարձություն.:
 
 `stripe trigger {{charge.succeeded}}`
 
-- Ստեղծեք հաճախորդ.
+- Ստեղծեք հաճախորդ.:
 
 `stripe customers create --email="{{test@example.com}}" --name="{{Jenny Rosen}}"`
 
-- Տպել JSON-ում.
+- Տպել JSON-ում.:
 
 `stripe listen --print-json`
