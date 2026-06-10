@@ -1,17 +1,17 @@
 #ավտոմեքենա
 
-> Ավտոմատացված Makefile ստեղծում ծրագրային նախագծերի համար՝ օգտագործելով GNU ստանդարտները:
-> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/automake/manual/automake.html#automake-Invocation>:
+> Ավտոմատացված Makefile ստեղծում ծրագրային նախագծերի համար՝ օգտագործելով GNU ստանդարտները:.
+> Լրացուցիչ տեղեկություններ. <https://www.gnu.org/software/automake/manual/automake.html#automake-Invocation>:.
 
 - Գործարկեք automake-ը՝ `Makefile.am`-ը խմբագրելուց հետո Makefiles-ը վերականգնելու համար:
 
 `automake`
 
-- Ստեղծեք `Makefile.in` ոչ GNU նախագծի համար (օտար ռեժիմ).
+- Ստեղծեք `Makefile.in` ոչ GNU նախագծի համար (օտար ռեժիմ).:
 
 `automake --foreign`
 
-- Վրիպազերծման համար ավելացրեք մանրամասն ելք.
+- Վրիպազերծման համար ավելացրեք մանրամասն ելք.:
 
 `automake {{[-v|--verbose]}}`
 
@@ -19,6 +19,6 @@
 
 `automake {{[-a|--add-missing]}}`
 
-- Ցուցադրել օգնությունը.
+- Ցուցադրել օգնությունը.:
 
 `automake --help`

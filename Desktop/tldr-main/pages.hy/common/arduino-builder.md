@@ -1,10 +1,10 @@
 # arduino-builder
 
-> Կազմել arduino էսքիզներ:
-> ՀԵՌԱՑՄԱՆ ԶԳՈՒՇԱՑՈՒՄ. այս գործիքը աստիճանաբար հեռացվում է հօգուտ `arduino`-ի:
-> Լրացուցիչ տեղեկություններ. <https://github.com/arduino/arduino-builder>:
+> Կազմել arduino էսքիզներ:.
+> ՀԵՌԱՑՄԱՆ ԶԳՈՒՇԱՑՈՒՄ. այս գործիքը աստիճանաբար հեռացվում է հօգուտ `arduino`-ի:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/arduino/arduino-builder>:.
 
-- Կազմել էսքիզ.
+- Կազմել էսքիզ.:
 
 `arduino-builder -compile {{path/to/sketch.ino}}`
 
@@ -12,14 +12,14 @@
 
 `arduino-builder -debug-level {{1..10}}`
 
-- Նշեք հատուկ կառուցման գրացուցակ.
+- Նշեք հատուկ կառուցման գրացուցակ.:
 
 `arduino-builder -build-path {{path/to/build_directory}}`
 
-- Օգտագործեք կառուցման ընտրանքային ֆայլ՝ ամեն անգամ ձեռքով `-hardware`, `-tools` և այլն նշելու փոխարեն՝
+- Օգտագործեք կառուցման ընտրանքային ֆայլ՝ ամեն անգամ ձեռքով `-hardware`, `-tools` և այլն նշելու փոխարեն՝:
 
 `arduino-builder -build-options-file {{path/to/build.options.json}}`
 
-- Միացնել բառացի ռեժիմը.
+- Միացնել բառացի ռեժիմը.:
 
 `arduino-builder -verbose {{true}}`

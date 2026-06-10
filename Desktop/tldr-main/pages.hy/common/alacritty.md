@@ -1,17 +1,17 @@
 #ալակրիտություն
 
-> Խաչաձև հարթակ, GPU-ով արագացված տերմինալային էմուլյատոր:
-> Լրացուցիչ տեղեկություններ. <https://manned.org/alacritty>:
+> Խաչաձև հարթակ, GPU-ով արագացված տերմինալային էմուլյատոր:.
+> Լրացուցիչ տեղեկություններ. <https://manned.org/alacritty>:.
 
-- Սկսեք նոր Alacritty գործընթաց և ստեղծեք պատուհան.
+- Սկսեք նոր Alacritty գործընթաց և ստեղծեք պատուհան.:
 
 `alacritty`
 
-- Սկսեք Alacritty daemon-ը (առանց պատուհան ստեղծելու).
+- Սկսեք Alacritty daemon-ը (առանց պատուհան ստեղծելու).:
 
 `alacritty --daemon`
 
-- Ստեղծեք նոր պատուհան՝ օգտագործելով արդեն գործող Alacritty գործընթացը.
+- Ստեղծեք նոր պատուհան՝ օգտագործելով արդեն գործող Alacritty գործընթացը.:
 
 `alacritty msg create-window`
 
@@ -19,7 +19,7 @@
 
 `alacritty --working-directory {{path/to/directory}}`
 
-- Կատարեք հրաման նոր Alacritty պատուհանում (աշխատում է նաև `alacritty msg create-window`-ով).
+- Կատարեք հրաման նոր Alacritty պատուհանում (աշխատում է նաև `alacritty msg create-window`-ով).:
 
 `alacritty {{[-e|--command]}} {{command}}`
 

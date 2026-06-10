@@ -1,10 +1,10 @@
 #ասցիինեմա
 
-> Ձայնագրեք և վերարտադրեք տերմինալի նիստերը և կամայականորեն տարածեք դրանք <https://asciinema.org> կայքում:
-> Տես նաև՝ `terminalizer`, `agg`:
-> Լրացուցիչ տեղեկություններ. <https://docs.asciinema.org/manual/cli/>:
+> Ձայնագրեք և վերարտադրեք տերմինալի նիստերը և կամայականորեն տարածեք դրանք <https://asciinema.org> կայքում:.
+> Տես նաև՝ `terminalizer`, `agg`:.
+> Լրացուցիչ տեղեկություններ. <https://docs.asciinema.org/manual/cli/>:.
 
-- Կապել `asciinema`-ի տեղական տեղադրումը asciinema.org հաշվի հետ.
+- Կապել `asciinema`-ի տեղական տեղադրումը asciinema.org հաշվի հետ.:
 
 `asciinema {{[a|auth]}}`
 
@@ -12,11 +12,11 @@
 
 `asciinema {{[r|record]}} {{path/to/recording.cast}}`
 
-- Վերարտադրեք տերմինալի ձայնագրությունը տեղական ֆայլից.
+- Վերարտադրեք տերմինալի ձայնագրությունը տեղական ֆայլից.:
 
 `asciinema {{[p|play]}} {{path/to/recording.cast}}`
 
-- Կրկնել <https://asciinema.org> կայքում տեղադրված տերմինալի ձայնագրությունը.
+- Կրկնել <https://asciinema.org> կայքում տեղադրված տերմինալի ձայնագրությունը.:
 
 `asciinema {{[p|play]}} https://asciinema.org/a/{{cast_id}}`
 
@@ -24,7 +24,7 @@
 
 `asciinema {{[r|record]}} {{[-i|--idle-time-limit]}} 2.5`
 
-- Տպեք տեղական պահպանված ձայնագրության ամբողջական արդյունքը.
+- Տպեք տեղական պահպանված ձայնագրության ամբողջական արդյունքը.:
 
 `asciinema {{[ca|cat]}} {{path/to/recording.cast}}`
 
@@ -32,6 +32,6 @@
 
 `asciinema {{[u|upload]}} {{path/to/recording.cast}}`
 
-- Հեռարձակեք ընթացիկ տերմինալը տեղական կայքէջում.
+- Հեռարձակեք ընթացիկ տերմինալը տեղական կայքէջում.:
 
 `asciinema {{[st|stream]}} --local`

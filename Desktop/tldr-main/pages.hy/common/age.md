@@ -1,10 +1,10 @@
 #տարիք
 
-> Պարզ, ժամանակակից և անվտանգ ֆայլերի կոդավորման գործիք:
-> Տես նաև՝ `age-keygen`, `age-inspect`:
-> Լրացուցիչ տեղեկություններ. <https://github.com/FiloSottile/age#usage>:
+> Պարզ, ժամանակակից և անվտանգ ֆայլերի կոդավորման գործիք:.
+> Տես նաև՝ `age-keygen`, `age-inspect`:.
+> Լրացուցիչ տեղեկություններ. <https://github.com/FiloSottile/age#usage>:.
 
-- Ստեղծեք կոդավորված ֆայլ, որը կարող է վերծանվել անցաբառով.
+- Ստեղծեք կոդավորված ֆայլ, որը կարող է վերծանվել անցաբառով.:
 
 `age {{[-p|--passphrase]}} {{[-o|--output]}} {{path/to/encrypted_file.age}} {{path/to/unencrypted_file}}`
 
@@ -12,14 +12,14 @@
 
 `age {{[-r|--recipient]}} {{public_key}} {{[-o|--output]}} {{path/to/encrypted_file.age}} {{path/to/unencrypted_file}}`
 
-- Գաղտնագրեք ֆայլը մեկ կամ մի քանի հասցեատերերի համար, որոնց հանրային բանալիները նշված են ֆայլում (մեկ տողում).
+- Գաղտնագրեք ֆայլը մեկ կամ մի քանի հասցեատերերի համար, որոնց հանրային բանալիները նշված են ֆայլում (մեկ տողում).:
 
 `age {{[-R|--recipients-file]}} {{path/to/recipients_file.txt}} {{[-o|--output]}} {{path/to/encrypted_file.age}} {{path/to/unencrypted_file}}`
 
-- գաղտնազերծել ֆայլը անցաբառով.
+- գաղտնազերծել ֆայլը անցաբառով.:
 
 `age {{[-d|--decrypt]}} {{[-o|--output]}} {{path/to/decrypted_file}} {{path/to/encrypted_file.age}}`
 
-- գաղտնազերծել ֆայլը մասնավոր բանալի ֆայլով.
+- գաղտնազերծել ֆայլը մասնավոր բանալի ֆայլով.:
 
 `age {{[-d|--decrypt]}} {{[-i|--identity]}} {{path/to/private_key_file}} {{[-o|--output]}} {{path/to/decrypted_file}} {{path/to/encrypted_file.age}}`
