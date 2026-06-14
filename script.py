@@ -1,16 +1,18 @@
+
 CHANNEL_IDS = [
-    "UC5apvpZ8G8T30SdBtkPsacQ", # Откровения Бехтеревой, 261
-    "UCgILLDF-H3fPaqxC2jnT0pA", # Эпоха Великих Ученых, 202
-    "UCpcLggHwr0B4UZKmIx9DCLQ", # Нейронные открытия Бехтеревой, 63
-    "UCyyuU-_pPaaKw82L7Qnl7lQ", # Наталья Бехтерева рассказывает, 258
-    "UCdfeNL54iXtzejfTU1Yku6g", # Открытия Бехтеревой,
-    "UCgqrPxz5bnJjjaHzbAaDg-Q", # Мудрость
-    "UC5apvpZ8G8T30SdBtkPsacQ", # Бехтеревой объясняется
-    "UCTBtAPbC0WwIA_zmkW-Djeg", # Мысли Бехтеревой
-    "UCAwGVn0AX5wJLkbhEo_HPAA", # Бехтереви и ее мысли
-    "UCQ4_p4cttyc5jIf6K08L8wQ", # Философия жизни | Наталья Бехтерева, 94
-    "UCvJ95paukUt-aWpAj8mUF-A", # Бехтерева и ее мысли, 35
+    "UC5apvpZ8G8T30SdBtkPsacQ",  # Откровения Бехтеревой, 261
+    "UCgILLDF-H3fPaqxC2jnT0pA",  # Эпоха Великих Ученых, 202
+    "UCpcLggHwr0B4UZKmIx9DCLQ",  # Нейронные открытия Бехтеревой, 63
+    "UCyyuU-_pPaaKw82L7Qnl7lQ",  # Наталья Бехтерева рассказывает, 258
+    "UCdfeNL54iXtzejfTU1Yku6g",  # Открытия Бехтеревой,
+    "UCgqrPxz5bnJjjaHzbAaDg-Q",  # Мудрость
+    "UC5apvpZ8G8T30SdBtkPsacQ",  # Бехтеревой объясняется
+    "UCTBtAPbC0WwIA_zmkW-Djeg",  # Мысли Бехтеревой
+    "UCAwGVn0AX5wJLkbhEo_HPAA",  # Бехтереви и ее мысли
+    "UCQ4_p4cttyc5jIf6K08L8wQ",  # Философия жизни | Наталья Бехтерева, 94
+    "UCvJ95paukUt-aWpAj8mUF-A",  # Бехтерева и ее мысли, 35
 ]
+
 
 OUTPUT_DIR = "transcripts"
 FILE_FORMAT = "txt"
