@@ -1,3 +1,8 @@
+'''
+Downloads a YouTube video, extracts its audio, transcribes it into text, and saves 
+the text into a professionally formatted Microsoft Word document (.docx).
+'''
+
 import os
 
 from docx import Document
@@ -113,7 +118,7 @@ def save_docx(result, title, url, output_path="youtube_transcript.docx"):
 
 
 if __name__ == "__main__":
-    VIDEO_URL = "https://www.youtube.com/watch?v=doUeuzU-8SU"
+    VIDEO_URL = "YOUTUBE-LINK"
 
     try:
         mp3_file, title = download_youtube_mp3(VIDEO_URL)
